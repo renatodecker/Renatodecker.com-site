@@ -59,5 +59,93 @@
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
+  },
+  "cv": {
+    "nav": {
+      "about": "Über mich",
+      "experience": "Erfahrung",
+      "education": "Ausbildung",
+      "services": "Leistungen"
+    },
+    "hero": {
+      "tag": "Projektmanager & PMO-Spezialist",
+      "subtitle": "PMO · Projektmanagement · Portfolio · Teamführung",
+      "location": "Criciúma, SC, Brasilien",
+      "stat1": "20+",
+      "stat1label": "Jahre Erfahrung",
+      "stat2": "4",
+      "stat2label": "Führungspositionen",
+      "stat3": "ERP",
+      "stat3label": "hochkomplexe Projekte",
+      "cta": "Leistungen ansehen",
+      "ctaContact": "Kontakt"
+    },
+    "summary": {
+      "title": "Über mich",
+      "p1": "Über 20 Jahre Karriere in der IT mit Schwerpunkt Projektmanagement, Portfolio und PMO. Gesamte Laufbahn bei Agrosys Tecnologia, einem nationalen Referenzunternehmen für Technologiedienstleistungen im Agrarsektor.",
+      "p2": "Expertise über den gesamten Projektmanagement-Zyklus: Planung, Scope-Kontrolle, Terminplanung, SLA, Risikomanagement und Stakeholder-Alignment. Spezialist für den Aufbau von Methoden und leistungsstarken Teams.",
+      "p3": "Erfahrung in der Führung von Teams mit bis zu 20 Personen, Konfliktmanagement, kontinuierliche Verbesserung und Prozess-Governance — immer mit Fokus auf Ergebnisse, nicht auf Bürokratie."
+    },
+    "exp": {
+      "title": "Erfahrung",
+      "company": "Agrosys Tecnologia",
+      "total": "21 Jahre · Vollzeit",
+      "r1": {
+        "title": "Implementierungsleiter",
+        "period": "Jun 2022 – heute",
+        "duration": "4 Jahre",
+        "desc": "Verantwortlich für den Implementierungsbereich mit 6 Projektmanagern und über 20 Mitarbeitern. Aufbau von Methodik, Prozessen und Governance für ERP-Projektlieferungen. Portfolio-Kontrolle, KPIs und SLA-Management."
+      },
+      "r2": {
+        "title": "Produktmanager",
+        "period": "Mär 2019 – Jun 2022",
+        "duration": "3 Jahre 4 Monate",
+        "desc": "Führung eines Teams von 14 Analysten und Entwicklern. Einführung agiler Methoden, Produkt-Roadmap und Backlog-Management, strategische Ausrichtung zwischen Business und Technologie."
+      },
+      "r3": {
+        "title": "Softwareentwicklungs-Portfolio-Manager",
+        "period": "Jun 2017 – Mär 2019",
+        "duration": "1 Jahr 10 Monate",
+        "desc": "Management des Softwareentwicklungs-Projektportfolios. Unterstützung des Projektmanager-Teams, Beseitigung von Hindernissen und strategische Ausrichtung nach PMBOK-Standards."
+      },
+      "r4": {
+        "title": "Support- & Service-Manager",
+        "period": "Apr 2016 – Jun 2017",
+        "duration": "1 Jahr 3 Monate",
+        "desc": "Management von Level-1-Support (6 Personen) und Level-2-Support (14 Personen). SLA-Definition und -Kontrolle, Implementierung von Qualitäts-KPIs und kontinuierlichen Verbesserungsprozessen."
+      }
+    },
+    "skills": {
+      "title": "Kompetenzen",
+      "c1": {
+        "name": "Projektmanagement",
+        "items": ["Strategisches PMO", "PMBOK", "Portfoliomanagement", "Risikomanagement", "Scope-Kontrolle", "Terminplanung"]
+      },
+      "c2": {
+        "name": "Methoden",
+        "items": ["Agile / Scrum", "Kanban", "Kontinuierliche Verbesserung", "Änderungsmanagement", "SLA-Management"]
+      },
+      "c3": {
+        "name": "Führung",
+        "items": ["Teamführung", "Personalmanagement", "Teamaufbau", "Konfliktmanagement", "Stakeholder-Management"]
+      },
+      "c4": {
+        "name": "Technologie",
+        "items": ["ERP", "Systemintegration", "Anforderungsanalyse", "Produktmanagement"]
+      }
+    },
+    "edu": {
+      "title": "Ausbildung",
+      "e1": { "inst": "PUCRS", "degree": "Postgraduiertenstudium", "field": "Full Stack Entwicklung", "period": "2023 – 2024" },
+      "e2": { "inst": "UNESC", "degree": "MBA", "field": "Personalmanagement", "period": "2016 – 2018" },
+      "e3": { "inst": "Esucri", "degree": "Postgraduiertenstudium", "field": "IT-Projektmanagement", "period": "2008 – 2010" },
+      "e4": { "inst": "UNISUL", "degree": "Technologe", "field": "Computernetzwerke / IT", "period": "2005 – 2007" },
+      "e5": { "inst": "UFSC", "degree": "Bachelor", "field": "Informationstechnologie", "period": "2001 – 2004" }
+    },
+    "cta": {
+      "title": "Brauchen Sie einen PMO oder Projektmanager?",
+      "subtitle": "Entdecken Sie Beratungs-, Projektmanagement- und Team-Trainingsleistungen.",
+      "btn": "Leistungen ansehen →"
+    }
   }
 }

@@ -59,5 +59,93 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados."
+  },
+  "cv": {
+    "nav": {
+      "about": "Acerca de",
+      "experience": "Experiencia",
+      "education": "Formación",
+      "services": "Servicios"
+    },
+    "hero": {
+      "tag": "Gerente de Proyectos & Especialista en PMO",
+      "subtitle": "PMO · Gestión de Proyectos · Portafolio · Liderazgo de Equipos",
+      "location": "Criciúma, SC, Brasil",
+      "stat1": "20+",
+      "stat1label": "años de experiencia",
+      "stat2": "4",
+      "stat2label": "cargos de liderazgo",
+      "stat3": "ERP",
+      "stat3label": "proyectos de alta complejidad",
+      "cta": "Ver servicios",
+      "ctaContact": "Contacto"
+    },
+    "summary": {
+      "title": "Sobre mí",
+      "p1": "Carrera consolidada de más de 20 años en TI, con foco en gestión de proyectos, portafolio y PMO. Toda la trayectoria en Agrosys Tecnologia, empresa nacional de referencia en Servicios de Tecnología para el Agronegocio.",
+      "p2": "Experiencia en todo el ciclo de gestión de proyectos: planificación, control de alcance, cronograma, SLA, gestión de riesgos y alineación con stakeholders. Especialidad en estructuración de metodologías y formación de equipos de alto desempeño.",
+      "p3": "Experiencia liderando equipos de hasta 20 personas, gestión de conflictos, mejora continua y gobernanza de procesos — siempre con foco en resultados, no en burocracia."
+    },
+    "exp": {
+      "title": "Experiencia",
+      "company": "Agrosys Tecnologia",
+      "total": "21 años · Tiempo completo",
+      "r1": {
+        "title": "Gerente de Implantación",
+        "period": "jun 2022 – presente",
+        "duration": "4 años",
+        "desc": "Responsable del área de Implantación, gestionando un equipo con 6 gerentes de proyectos y más de 20 colaboradores. Estructuración de metodología, procesos y gobernanza para entregas de proyectos ERP."
+      },
+      "r2": {
+        "title": "Gerente de Productos",
+        "period": "mar 2019 – jun 2022",
+        "duration": "3 años 4 meses",
+        "desc": "Liderazgo de equipo con 14 analistas y desarrolladores. Implementación de métodos ágiles, gestión de roadmap y backlog de producto, alineación estratégica entre negocio y tecnología."
+      },
+      "r3": {
+        "title": "Gerente de Portafolio de Proyectos",
+        "period": "jun 2017 – mar 2019",
+        "duration": "1 año 10 meses",
+        "desc": "Gestión del portafolio de proyectos de desarrollo de software. Apoyo al equipo de gerentes de proyectos, remoción de impedimentos y alineación estratégica aplicando estándares PMBOK."
+      },
+      "r4": {
+        "title": "Gerente de Atención y Soporte",
+        "period": "abr 2016 – jun 2017",
+        "duration": "1 año 3 meses",
+        "desc": "Gestión de atención nivel 1 (6 personas) y soporte nivel 2 (14 personas). Control de SLA, implementación de indicadores de calidad y procesos de mejora continua."
+      }
+    },
+    "skills": {
+      "title": "Competencias",
+      "c1": {
+        "name": "Gestión de Proyectos",
+        "items": ["PMO Estratégico", "PMBOK", "Gestión de Portafolio", "Gestión de Riesgos", "Control de Alcance", "Planificación de Cronograma"]
+      },
+      "c2": {
+        "name": "Metodologías",
+        "items": ["Agile / Scrum", "Kanban", "Mejora Continua", "Gestión de Cambios", "SLA Management"]
+      },
+      "c3": {
+        "name": "Liderazgo",
+        "items": ["Liderazgo de Equipos", "Gestión de Personas", "Formación de Equipos", "Gestión de Conflictos", "Stakeholder Management"]
+      },
+      "c4": {
+        "name": "Tecnología",
+        "items": ["ERP", "Integración de Sistemas", "Análisis de Requisitos", "Product Management"]
+      }
+    },
+    "edu": {
+      "title": "Formación",
+      "e1": { "inst": "PUCRS", "degree": "Posgrado", "field": "Desarrollo Full Stack", "period": "2023 – 2024" },
+      "e2": { "inst": "UNESC", "degree": "MBA", "field": "Gestión de Personas", "period": "2016 – 2018" },
+      "e3": { "inst": "Esucri", "degree": "Posgrado", "field": "Gestión de Proyectos en TI", "period": "2008 – 2010" },
+      "e4": { "inst": "UNISUL", "degree": "Tecnólogo", "field": "Redes de Computadoras / TI", "period": "2005 – 2007" },
+      "e5": { "inst": "UFSC", "degree": "Licenciatura", "field": "Tecnología de la Información", "period": "2001 – 2004" }
+    },
+    "cta": {
+      "title": "¿Necesitas un PMO o Gerente de Proyectos?",
+      "subtitle": "Conoce los servicios de consultoría, gestión de proyectos y capacitación de equipos.",
+      "btn": "Ver servicios →"
+    }
   }
 }

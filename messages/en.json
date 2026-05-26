@@ -59,5 +59,93 @@
   },
   "footer": {
     "rights": "All rights reserved."
+  },
+  "cv": {
+    "nav": {
+      "about": "About",
+      "experience": "Experience",
+      "education": "Education",
+      "services": "Services"
+    },
+    "hero": {
+      "tag": "Project Manager & PMO Specialist",
+      "subtitle": "PMO · Project Management · Portfolio · Team Leadership",
+      "location": "Criciúma, SC, Brazil",
+      "stat1": "20+",
+      "stat1label": "years of experience",
+      "stat2": "4",
+      "stat2label": "leadership roles",
+      "stat3": "ERP",
+      "stat3label": "high-complexity projects",
+      "cta": "View services",
+      "ctaContact": "Contact"
+    },
+    "summary": {
+      "title": "About",
+      "p1": "Over 20 years of career in IT, focused on project management, portfolio, and PMO. Entire career at Agrosys Tecnologia, a national reference company in Technology Services for Agribusiness.",
+      "p2": "Expertise across the full project management cycle: planning, scope control, scheduling, SLA, risk management, and stakeholder alignment. Specialist in building methodologies and high-performance teams.",
+      "p3": "Experience leading teams of up to 20 people, conflict management, continuous improvement, and process governance — always focused on results, not bureaucracy."
+    },
+    "exp": {
+      "title": "Experience",
+      "company": "Agrosys Tecnologia",
+      "total": "21 years · Full-time",
+      "r1": {
+        "title": "Implementation Manager",
+        "period": "Jun 2022 – present",
+        "duration": "4 years",
+        "desc": "Responsible for the Implementation area, managing a team of 6 project managers and 20+ employees. Structuring methodology, processes, and governance for ERP project deliveries. Portfolio control, KPIs, and SLA management."
+      },
+      "r2": {
+        "title": "Product Manager",
+        "period": "Mar 2019 – Jun 2022",
+        "duration": "3 years 4 months",
+        "desc": "Led a team of 14 analysts and developers. Implemented agile methods, product roadmap and backlog management. Strategic alignment between business and technology areas, portfolio prioritization, and delivery management."
+      },
+      "r3": {
+        "title": "Software Development Portfolio Manager",
+        "period": "Jun 2017 – Mar 2019",
+        "duration": "1 year 10 months",
+        "desc": "Managed the software development project portfolio. Supported the project managers team, removed obstacles, ensured strategic alignment and applied PMBOK standards. Risk control and executive reporting."
+      },
+      "r4": {
+        "title": "Support & Service Manager",
+        "period": "Apr 2016 – Jun 2017",
+        "duration": "1 year 3 months",
+        "desc": "Managed level-1 support (6 people) and level-2 support (14 people). Defined and controlled SLAs, implemented quality KPIs, escalation processes, and continuous improvement initiatives."
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "c1": {
+        "name": "Project Management",
+        "items": ["Strategic PMO", "PMBOK", "Portfolio Management", "Risk Management", "Scope Control", "Schedule Planning"]
+      },
+      "c2": {
+        "name": "Methodologies",
+        "items": ["Agile / Scrum", "Kanban", "Continuous Improvement", "Change Management", "SLA Management"]
+      },
+      "c3": {
+        "name": "Leadership",
+        "items": ["Team Leadership", "People Management", "Team Building", "Conflict Management", "Stakeholder Management"]
+      },
+      "c4": {
+        "name": "Technology",
+        "items": ["ERP", "Systems Integration", "Requirements Analysis", "Product Management"]
+      }
+    },
+    "edu": {
+      "title": "Education",
+      "e1": { "inst": "PUCRS", "degree": "Postgraduate", "field": "Full Stack Development", "period": "2023 – 2024" },
+      "e2": { "inst": "UNESC", "degree": "MBA", "field": "People Management", "period": "2016 – 2018" },
+      "e3": { "inst": "Esucri", "degree": "Postgraduate", "field": "IT Project Management", "period": "2008 – 2010" },
+      "e4": { "inst": "UNISUL", "degree": "Technologist", "field": "Computer Networks / IT", "period": "2005 – 2007" },
+      "e5": { "inst": "UFSC", "degree": "Bachelor's", "field": "Information Technology", "period": "2001 – 2004" }
+    },
+    "cta": {
+      "title": "Need a PMO or Project Manager?",
+      "subtitle": "Explore consulting, project management, and team training services.",
+      "btn": "View services →"
+    }
   }
 }

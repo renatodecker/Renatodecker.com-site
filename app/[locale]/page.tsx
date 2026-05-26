@@ -1,164 +1,85 @@
-import { useTranslations } from "next-intl";
-import Navbar from "@/components/Navbar";
-import ContactForm from "@/components/ContactForm";
+import { useTranslations, useLocale } from "next-intl";
+import HomeNavbar from "@/components/HomeNavbar";
 
-function CheckIcon() {
+function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <svg className="w-4 h-4 text-[var(--celeste)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-    </svg>
-  );
-}
-
-function ServiceCard({
-  tag,
-  title,
-  description,
-  items,
-  cta,
-  accent,
-}: {
-  tag: string;
-  title: string;
-  description: string;
-  items: string[];
-  cta: string;
-  accent?: boolean;
-}) {
-  return (
-    <div
-      className={`rounded-2xl p-8 flex flex-col gap-5 border transition-shadow hover:shadow-lg ${
-        accent
-          ? "bg-[var(--navy)] text-white border-[var(--navy)]"
-          : "bg-white text-[var(--foreground)] border-[var(--border)]"
-      }`}
-    >
-      <span
-        className={`text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full self-start ${
-          accent ? "bg-white/15 text-white" : "bg-[var(--celeste-pale)] text-[var(--celeste)]"
-        }`}
-      >
-        {tag}
-      </span>
-      <h3 className="text-xl font-bold">{title}</h3>
-      <p className={`text-sm leading-relaxed ${accent ? "text-white/80" : "text-[var(--muted)]"}`}>
-        {description}
-      </p>
-      <ul className="flex flex-col gap-2 mt-auto">
-        {items.map((item) => (
-          <li key={item} className="flex items-start gap-2 text-sm">
-            {accent ? (
-              <svg className="w-4 h-4 text-[var(--celeste-light)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-              </svg>
-            ) : (
-              <CheckIcon />
-            )}
-            <span className={accent ? "text-white/90" : ""}>{item}</span>
-          </li>
-        ))}
-      </ul>
-      <a
-        href="#contact"
-        className={`mt-4 inline-flex items-center gap-2 text-sm font-semibold transition-colors ${
-          accent
-            ? "text-[var(--celeste-light)] hover:text-white"
-            : "text-[var(--celeste)] hover:text-[var(--navy)]"
-        }`}
-      >
-        {cta}
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-        </svg>
-      </a>
-    </div>
+    <span className="text-xs font-bold uppercase tracking-widest text-[var(--celeste)] mb-2 block">
+      {children}
+    </span>
   );
 }
 
 export default function HomePage() {
-  const t = useTranslations();
+  const t = useTranslations("cv");
+  const locale = useLocale();
 
-  const services = [
-    {
-      tag: t("services.s1.tag"),
-      title: t("services.s1.title"),
-      description: t("services.s1.description"),
-      items: [
-        t("services.s1.items.0"),
-        t("services.s1.items.1"),
-        t("services.s1.items.2"),
-        t("services.s1.items.3"),
-        t("services.s1.items.4"),
-      ],
-    },
-    {
-      tag: t("services.s2.tag"),
-      title: t("services.s2.title"),
-      description: t("services.s2.description"),
-      items: [
-        t("services.s2.items.0"),
-        t("services.s2.items.1"),
-        t("services.s2.items.2"),
-        t("services.s2.items.3"),
-        t("services.s2.items.4"),
-      ],
-      accent: true,
-    },
-    {
-      tag: t("services.s3.tag"),
-      title: t("services.s3.title"),
-      description: t("services.s3.description"),
-      items: [
-        t("services.s3.items.0"),
-        t("services.s3.items.1"),
-        t("services.s3.items.2"),
-        t("services.s3.items.3"),
-        t("services.s3.items.4"),
-      ],
-    },
-  ];
+  const expRoles = ["r1", "r2", "r3", "r4"] as const;
+  const eduEntries = ["e1", "e2", "e3", "e4", "e5"] as const;
+  const skillCats = ["c1", "c2", "c3", "c4"] as const;
 
   return (
     <>
-      <Navbar />
+      <HomeNavbar />
 
       <main id="top">
-        {/* ── Hero ─────────────────────────────────────── */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[var(--navy-dark)]">
-          {/* Background decoration */}
+        {/* ── Hero ──────────────────────────────────────── */}
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-[var(--navy-dark)] via-[var(--navy)] to-[#0d3060]" />
           <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-1/4 right-0 w-[600px] h-[600px] rounded-full bg-[var(--celeste)] opacity-5 translate-x-1/2" />
-            <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[var(--celeste)] opacity-5 -translate-x-1/2" />
-            <div className="absolute inset-0 bg-gradient-to-br from-[var(--navy-dark)] via-[var(--navy)] to-[#0d3060]" />
+            <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-[var(--celeste)] opacity-5 translate-x-1/2" />
+            <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[var(--celeste)] opacity-5 -translate-x-1/2" />
           </div>
 
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-32">
-            <span className="inline-block text-xs font-bold uppercase tracking-[0.2em] text-[var(--celeste-light)] mb-6 px-4 py-2 rounded-full border border-[var(--celeste)]/30 bg-[var(--celeste)]/10">
+            {/* Avatar */}
+            <div className="mx-auto mb-8 w-28 h-28 rounded-full bg-gradient-to-br from-[var(--celeste)] to-[var(--navy-dark)] flex items-center justify-center ring-4 ring-white/20">
+              <span className="text-3xl font-black text-white/90 select-none">RD</span>
+            </div>
+
+            <span className="inline-block text-xs font-bold uppercase tracking-[0.2em] text-[var(--celeste-light)] mb-4 px-4 py-1.5 rounded-full border border-[var(--celeste)]/30 bg-[var(--celeste)]/10">
               {t("hero.tag")}
             </span>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-              {t("hero.title")}
+            <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-3 tracking-tight">
+              Renato Decker
             </h1>
-            <p className="text-lg text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed">
+            <p className="text-[var(--celeste-light)] font-medium text-lg mb-3 tracking-wide">
               {t("hero.subtitle")}
             </p>
+            <p className="text-white/50 text-sm mb-10 flex items-center justify-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {t("hero.location")}
+            </p>
+
+            {/* Stats */}
+            <div className="flex flex-wrap justify-center gap-8 mb-10">
+              {(["stat1", "stat2", "stat3"] as const).map((key) => (
+                <div key={key} className="text-center">
+                  <div className="text-3xl font-black text-white">{t(`hero.${key}`)}</div>
+                  <div className="text-xs text-white/50 mt-1 max-w-[100px]">{t(`hero.${key}label`)}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#services"
+                href={`/${locale}/renatopmo`}
                 className="px-8 py-4 bg-[var(--celeste)] text-white font-bold rounded-xl hover:bg-[var(--celeste-light)] transition-colors shadow-lg"
               >
                 {t("hero.cta")}
               </a>
               <a
-                href="#contact"
+                href="mailto:renatodecker@yahoo.com.br"
                 className="px-8 py-4 border border-white/30 text-white font-bold rounded-xl hover:bg-white/10 transition-colors"
               >
-                {t("hero.ctaSecondary")}
+                {t("hero.ctaContact")}
               </a>
             </div>
           </div>
 
-          {/* Bottom wave */}
           <div className="absolute bottom-0 left-0 right-0">
             <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 80L1440 80L1440 40C1200 80 960 0 720 20C480 40 240 80 0 40L0 80Z" fill="#f5f8fc" />
@@ -166,82 +87,134 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── Services ─────────────────────────────────── */}
-        <section id="services" className="py-24 bg-[var(--background)]">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <span className="text-xs font-bold uppercase tracking-widest text-[var(--celeste)] mb-3 block">
-                {t("services.title")}
-              </span>
-              <p className="text-[var(--muted)] max-w-xl mx-auto">{t("services.subtitle")}</p>
+        {/* ── About / Summary ───────────────────────────── */}
+        <section id="about" className="py-20 bg-[var(--background)]">
+          <div className="max-w-4xl mx-auto px-6">
+            <SectionLabel>{t("summary.title")}</SectionLabel>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
+              <p className="text-[var(--muted)] leading-relaxed">{t("summary.p1")}</p>
+              <p className="text-[var(--muted)] leading-relaxed">{t("summary.p2")}</p>
+              <p className="text-[var(--foreground)] leading-relaxed font-medium italic border-l-4 border-[var(--celeste)] pl-4">
+                {t("summary.p3")}
+              </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {services.map((s) => (
-                <ServiceCard key={s.title} {...s} cta={t("services.cta")} />
+          </div>
+        </section>
+
+        {/* ── Experience ────────────────────────────────── */}
+        <section id="experience" className="py-20 bg-white">
+          <div className="max-w-4xl mx-auto px-6">
+            <SectionLabel>{t("exp.title")}</SectionLabel>
+
+            {/* Company header */}
+            <div className="flex items-center gap-3 mb-10 mt-4">
+              <div className="w-12 h-12 rounded-xl bg-[var(--celeste-pale)] flex items-center justify-center flex-shrink-0">
+                <svg className="w-6 h-6 text-[var(--celeste)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-bold text-[var(--navy)] text-lg">{t("exp.company")}</h3>
+                <p className="text-sm text-[var(--muted)]">{t("exp.total")}</p>
+              </div>
+            </div>
+
+            {/* Timeline */}
+            <div className="relative pl-8 border-l-2 border-[var(--border)] space-y-10">
+              {expRoles.map((key) => (
+                <div key={key} className="relative">
+                  <div className="absolute -left-[2.35rem] top-1 w-4 h-4 rounded-full bg-[var(--celeste)] ring-4 ring-white" />
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
+                    <h4 className="font-bold text-[var(--foreground)] text-base">{t(`exp.${key}.title`)}</h4>
+                    <span className="text-xs font-medium text-[var(--celeste)] bg-[var(--celeste-pale)] px-2 py-0.5 rounded-full">
+                      {t(`exp.${key}.duration`)}
+                    </span>
+                  </div>
+                  <p className="text-xs text-[var(--muted)] mb-2">{t(`exp.${key}.period`)}</p>
+                  <p className="text-sm text-[var(--muted)] leading-relaxed">{t(`exp.${key}.desc`)}</p>
+                </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* ── About ────────────────────────────────────── */}
-        <section id="about" className="py-24 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-              {/* Visual side */}
-              <div className="relative">
-                <div className="aspect-square max-w-sm mx-auto rounded-2xl bg-gradient-to-br from-[var(--navy)] to-[var(--celeste)] flex items-center justify-center">
-                  <span className="text-8xl font-black text-white/20 select-none">RD</span>
+        {/* ── Skills ────────────────────────────────────── */}
+        <section className="py-20 bg-[var(--background)]">
+          <div className="max-w-4xl mx-auto px-6">
+            <SectionLabel>{t("skills.title")}</SectionLabel>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-4">
+              {skillCats.map((cat) => (
+                <div key={cat} className="bg-white rounded-xl p-5 border border-[var(--border)]">
+                  <h4 className="font-bold text-[var(--navy)] text-sm mb-3">{t(`skills.${cat}.name`)}</h4>
+                  <div className="flex flex-wrap gap-1.5">
+                    {Array.from({ length: cat === "c4" ? 4 : 5 }).map((_, i) => {
+                      const key = `skills.${cat}.items.${i}` as Parameters<typeof t>[0];
+                      return (
+                        <span key={i} className="text-xs px-2.5 py-1 rounded-full bg-[var(--celeste-pale)] text-[var(--navy)] font-medium">
+                          {t(key)}
+                        </span>
+                      );
+                    })}
+                  </div>
                 </div>
-                <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-2xl bg-[var(--celeste-pale)] -z-10" />
-                <div className="absolute -top-4 -left-4 w-24 h-24 rounded-full bg-[var(--navy)]/5 -z-10" />
-              </div>
-
-              {/* Text side */}
-              <div>
-                <span className="text-xs font-bold uppercase tracking-widest text-[var(--celeste)] mb-3 block">
-                  {t("about.title")}
-                </span>
-                <div className="space-y-4 text-[var(--muted)] leading-relaxed">
-                  <p>{t("about.p1")}</p>
-                  <p>{t("about.p2")}</p>
-                  <p className="font-medium text-[var(--foreground)] italic">{t("about.p3")}</p>
-                </div>
-                <div className="flex flex-wrap gap-2 mt-8">
-                  {[t("about.badge1"), t("about.badge2"), t("about.badge3")].map((badge) => (
-                    <span
-                      key={badge}
-                      className="text-xs font-semibold px-4 py-2 rounded-full bg-[var(--celeste-pale)] text-[var(--navy)]"
-                    >
-                      {badge}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* ── Contact ──────────────────────────────────── */}
-        <section id="contact" className="py-24 bg-[var(--background)]">
-          <div className="max-w-3xl mx-auto px-6">
-            <div className="text-center mb-12">
-              <span className="text-xs font-bold uppercase tracking-widest text-[var(--celeste)] mb-3 block">
-                {t("contact.title")}
-              </span>
-              <p className="text-[var(--muted)] max-w-xl mx-auto">{t("contact.subtitle")}</p>
+        {/* ── Education ─────────────────────────────────── */}
+        <section id="education" className="py-20 bg-white">
+          <div className="max-w-4xl mx-auto px-6">
+            <SectionLabel>{t("edu.title")}</SectionLabel>
+            <div className="mt-4 space-y-4">
+              {eduEntries.map((key) => (
+                <div key={key} className="flex items-start gap-4 py-4 border-b border-[var(--border)] last:border-0">
+                  <div className="w-10 h-10 rounded-lg bg-[var(--celeste-pale)] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-5 h-5 text-[var(--celeste)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
+                      <span className="font-bold text-[var(--navy)]">{t(`edu.${key}.inst`)}</span>
+                      <span className="text-xs text-[var(--muted)]">{t(`edu.${key}.period`)}</span>
+                    </div>
+                    <p className="text-sm text-[var(--foreground)]">{t(`edu.${key}.degree`)} · {t(`edu.${key}.field`)}</p>
+                  </div>
+                </div>
+              ))}
             </div>
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-[var(--border)]">
-              <ContactForm />
-            </div>
+          </div>
+        </section>
+
+        {/* ── Services CTA ──────────────────────────────── */}
+        <section className="py-20 bg-[var(--navy-dark)]">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-3xl font-extrabold text-white mb-4">{t("cta.title")}</h2>
+            <p className="text-white/60 mb-8 max-w-lg mx-auto">{t("cta.subtitle")}</p>
+            <a
+              href={`/${locale}/renatopmo`}
+              className="inline-block px-10 py-4 bg-[var(--celeste)] text-white font-bold rounded-xl hover:bg-[var(--celeste-light)] transition-colors shadow-lg text-lg"
+            >
+              {t("cta.btn")}
+            </a>
           </div>
         </section>
       </main>
 
-      {/* ── Footer ───────────────────────────────────── */}
-      <footer className="bg-[var(--navy-dark)] text-white/50 py-8">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      {/* ── Footer ──────────────────────────────────────── */}
+      <footer className="bg-[var(--navy-dark)] border-t border-white/10 text-white/40 py-8">
+        <div className="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
           <span className="font-bold text-white">Renato Decker</span>
-          <span>© {new Date().getFullYear()} {t("footer.rights")}</span>
+          <div className="flex items-center gap-6">
+            <a href="mailto:renatodecker@yahoo.com.br" className="hover:text-white transition-colors">
+              renatodecker@yahoo.com.br
+            </a>
+            <a href="https://linkedin.com/in/renatodecker" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              LinkedIn
+            </a>
+          </div>
         </div>
       </footer>
     </>
