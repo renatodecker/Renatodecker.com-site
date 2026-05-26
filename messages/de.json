@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tag": "Projektmanagement & PMO",
+    "title": "Projekte, die liefern. Organisationen, die wachsen.",
+    "subtitle": "Ich baue Projektbüros auf, leite komplexe Vorhaben und entwickle Projektmanager für die reale Welt.",
+    "cta": "Leistungen entdecken",
+    "ctaSecondary": "Kontakt aufnehmen"
+  },
+  "services": {
+    "title": "Leistungen",
+    "subtitle": "Maßgeschneiderte Lösungen für jede Reifephase des Projektmanagements Ihrer Organisation.",
+    "s1": {
+      "tag": "Beratung",
+      "title": "PMO-Aufbau & Strukturierung",
+      "description": "Ich baue Projektbüros von Grund auf auf und strukturiere sie. Von der Diagnose bis zum Betrieb entwickle ich Methoden, Rituale, Artefakte und Governance, die zum Kontext und zur Kultur Ihres Unternehmens passen.",
+      "items": ["Reifegradbewertung", "Methodendesign", "Vorlagen & Artefakte", "Governance & KPIs", "Begleitete Implementierung"]
+    },
+    "s2": {
+      "tag": "Management",
+      "title": "PMO & Projektmanagement",
+      "description": "Ich übernehme das Management strategischer Projekte als dedizierter PMO oder PM. Ich liefere Struktur, Transparenz und Ergebnisse — ohne dass Sie ein internes Team von Grund auf aufbauen müssen.",
+      "items": ["Portfoliomanagement", "Stakeholder-Koordination", "Termin- & Scope-Kontrolle", "Executive Reporting", "Risiko- & Änderungsmanagement"]
+    },
+    "s3": {
+      "tag": "Training",
+      "title": "PM-Entwicklung",
+      "description": "Für alle, die die Theorie kennen und echte Praxis brauchen. Workshops und Mentoring zu Alltagssituationen: schwierige Gespräche, Entscheidungen unter Druck, Teamführung und politische Navigation.",
+      "items": ["Individuelles Mentoring", "Praxis-Workshops", "Szenario-Simulationen", "Konfliktmanagement", "Situatives Führen"]
+    },
+    "cta": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über mich",
+    "p1": "Ich bin Renato Decker, Projektmanager mit über einem Jahrzehnt Erfahrung in komplexen, multikulturellen und druckintensiven Umgebungen.",
+    "p2": "Ich habe mit strategischen PMOs, digitalen Transformationsprojekten, Fusionen und internationaler Expansion gearbeitet. Mein Ansatz verbindet methodische Strenge mit Pragmatismus: Was zählt, ist das Ergebnis, nicht das Zertifikat an der Wand.",
+    "p3": "Ich glaube, dass Projektmanagement vor allem über Menschen ist. Methodik ist ein Werkzeug, kein Selbstzweck.",
+    "badge1": "Internationale Erfahrung",
+    "badge2": "Strategisches PMO",
+    "badge3": "Digitale Transformation"
+  },
+  "contact": {
+    "title": "Sprechen wir",
+    "subtitle": "Unabhängig von der Größe der Herausforderung: Der erste Schritt ist ein Gespräch. Erzählen Sie mir, womit Sie konfrontiert sind.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "messagePlaceholder": "Beschreiben Sie Ihre Herausforderung oder Ihr Projekt...",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Nachricht gesendet!",
+    "successMsg": "Ich melde mich in Kürze bei Ihnen.",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "ihre@email.de"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

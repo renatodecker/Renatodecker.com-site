@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Project Management & PMO",
+    "title": "Projects that deliver. Organizations that evolve.",
+    "subtitle": "I set up project offices, lead complex deliveries, and develop project managers ready for the real world.",
+    "cta": "Explore services",
+    "ctaSecondary": "Get in touch"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Tailored solutions for each stage of your organization's project management maturity.",
+    "s1": {
+      "tag": "Consulting",
+      "title": "PMO Setup & Structuring",
+      "description": "I build and organize project offices from scratch. From diagnosis to operation, I create methodologies, rituals, artifacts, and governance aligned with your company's context and culture.",
+      "items": ["Maturity assessment", "Methodology design", "Templates & artifacts", "Governance & KPIs", "Assisted implementation"]
+    },
+    "s2": {
+      "tag": "Management",
+      "title": "PMO & Project Management",
+      "description": "I take over the management of strategic projects as a dedicated PMO or PM. I deliver structure, visibility, and results — without you needing to build an internal team from scratch.",
+      "items": ["Portfolio management", "Stakeholder coordination", "Schedule & scope control", "Executive reporting", "Risk & change management"]
+    },
+    "s3": {
+      "tag": "Training",
+      "title": "PM Development",
+      "description": "For those who already know the theory and need real practice. Workshops and mentoring focused on everyday situations: tough conversations, decisions under pressure, team leadership, and political navigation.",
+      "items": ["Individual mentoring", "Practical workshops", "Scenario simulations", "Conflict management", "Situational leadership"]
+    },
+    "cta": "Learn more"
+  },
+  "about": {
+    "title": "About me",
+    "p1": "I'm Renato Decker, a project manager with over a decade of experience in complex, multicultural, and high-pressure environments.",
+    "p2": "I have worked with strategic PMO, digital transformation projects, mergers, and international expansion. My approach combines methodological rigor with pragmatism: what matters is the result, not the certificate on the wall.",
+    "p3": "I believe project management is, above all, about people. Methodology is a tool, not an end.",
+    "badge1": "International Experience",
+    "badge2": "Strategic PMO",
+    "badge3": "Digital Transformation"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "Regardless of the size of the challenge, the first step is a conversation. Tell me what you're facing.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Describe your challenge or project...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successMsg": "I'll get back to you shortly.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

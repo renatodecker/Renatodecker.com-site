@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "tag": "Gestão de Projetos & PMO",
+    "title": "Projetos que entregam. Organizações que evoluem.",
+    "subtitle": "Estruturo escritórios de projetos, lidero entregas complexas e desenvolvo gestores de projetos prontos para o mundo real.",
+    "cta": "Conheça os serviços",
+    "ctaSecondary": "Fale comigo"
+  },
+  "services": {
+    "title": "Serviços",
+    "subtitle": "Soluções sob medida para cada fase da maturidade em gestão de projetos da sua organização.",
+    "s1": {
+      "tag": "Consultoria",
+      "title": "Estruturação de PMO",
+      "description": "Monto e organizo escritórios de projetos do zero. Do diagnóstico à operação, crio metodologias, ritos, artefatos e governança alinhados ao contexto e cultura da sua empresa.",
+      "items": ["Diagnóstico de maturidade", "Desenho de metodologia", "Templates e artefatos", "Governança e indicadores", "Implantação assistida"]
+    },
+    "s2": {
+      "tag": "Gestão",
+      "title": "PMO & Gestão de Projetos",
+      "description": "Assumo a gestão de projetos estratégicos como PMO ou GP dedicado. Entrego estrutura, visibilidade e resultados — sem que você precise montar um time interno do zero.",
+      "items": ["Gestão de portfólio", "Coordenação de stakeholders", "Controle de cronograma e escopo", "Relatórios executivos", "Gestão de riscos e mudanças"]
+    },
+    "s3": {
+      "tag": "Treinamento",
+      "title": "Desenvolvimento de Gestores",
+      "description": "Para quem já conhece a teoria e precisa de prática real. Workshops e mentorias focados em situações do dia a dia: conversas difíceis, decisões sob pressão, liderança de times e navegação política.",
+      "items": ["Mentoria individual", "Workshops práticos", "Simulações de cenário", "Gestão de conflitos", "Liderança situacional"]
+    },
+    "cta": "Quero saber mais"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "p1": "Sou Renato Decker, gestor de projetos com mais de uma década de experiência em ambientes complexos, multiculturais e de alta pressão.",
+    "p2": "Trabalhei com PMO estratégico, projetos de transformação digital, fusões e expansão internacional. Minha abordagem combina rigor metodológico com pragmatismo: o que importa é o resultado, não o certificado na parede.",
+    "p3": "Acredito que gestão de projetos é, acima de tudo, sobre pessoas. Metodologia é ferramenta, não fim.",
+    "badge1": "Experiência Internacional",
+    "badge2": "PMO Estratégico",
+    "badge3": "Transformação Digital"
+  },
+  "contact": {
+    "title": "Vamos conversar",
+    "subtitle": "Independente do tamanho do desafio, o primeiro passo é uma conversa. Me conte o que está enfrentando.",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "messagePlaceholder": "Descreva o seu desafio ou projeto...",
+    "send": "Enviar mensagem",
+    "sending": "Enviando...",
+    "successTitle": "Mensagem enviada!",
+    "successMsg": "Entrarei em contato em breve.",
+    "namePlaceholder": "Seu nome",
+    "emailPlaceholder": "seu@email.com"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}
