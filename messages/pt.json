@@ -17,31 +17,31 @@
     "s1": {
       "tag": "Consultoria",
       "title": "Estruturação de PMO",
-      "description": "Monto e organizo escritórios de projetos do zero. Do diagnóstico à operação, crio metodologias, ritos, artefatos e governança alinhados ao contexto e cultura da sua empresa.",
+      "description": "Monto escritórios de projetos com metodologia que funciona na prática, não só no papel. Do diagnóstico de maturidade à operação com portfólio rodando — ritos, artefatos, governança e indicadores adaptados ao contexto real da sua empresa.",
       "items": ["Diagnóstico de maturidade", "Desenho de metodologia", "Templates e artefatos", "Governança e indicadores", "Implantação assistida"]
     },
     "s2": {
       "tag": "Gestão",
       "title": "PMO & Gestão de Projetos",
-      "description": "Assumo a gestão de projetos estratégicos como PMO ou GP dedicado. Entrego estrutura, visibilidade e resultados — sem que você precise montar um time interno do zero.",
+      "description": "Assumo o projeto como se fosse meu — do kickoff ao go-live. Gestão de escopo real, controle de stakeholders, navegação de conflitos e relatórios que dizem o que precisa ser dito. Quando o plano muda, a entrega não pode mudar.",
       "items": ["Gestão de portfólio", "Coordenação de stakeholders", "Controle de cronograma e escopo", "Relatórios executivos", "Gestão de riscos e mudanças"]
     },
     "s3": {
       "tag": "Treinamento",
       "title": "Desenvolvimento de Gestores",
-      "description": "Para quem já conhece a teoria e precisa de prática real. Workshops e mentorias focados em situações do dia a dia: conversas difíceis, decisões sob pressão, liderança de times e navegação política.",
-      "items": ["Mentoria individual", "Workshops práticos", "Simulações de cenário", "Gestão de conflitos", "Liderança situacional"]
+      "description": "Para quem sabe o que é PMBOK e Agile, mas trava quando o escopo explode, o cliente some e o C-level quer resposta em 10 minutos. Mentorias e workshops baseados em situações reais — não em casos de livro.",
+      "items": ["Mentoria individual", "Workshops práticos", "Simulações de cenário real", "Gestão de conflitos", "Decisões sob pressão"]
     },
     "cta": "Quero saber mais"
   },
   "about": {
     "title": "Sobre mim",
-    "p1": "Sou Renato Decker, gestor de projetos com mais de uma década de experiência em ambientes complexos, multiculturais e de alta pressão.",
-    "p2": "Trabalhei com PMO estratégico, projetos de transformação digital, fusões e expansão internacional. Minha abordagem combina rigor metodológico com pragmatismo: o que importa é o resultado, não o certificado na parede.",
-    "p3": "Acredito que gestão de projetos é, acima de tudo, sobre pessoas. Metodologia é ferramenta, não fim.",
-    "badge1": "Experiência Internacional",
-    "badge2": "PMO Estratégico",
-    "badge3": "Transformação Digital"
+    "p1": "Sou Renato Decker. Passei mais de 20 anos gerindo projetos em ambientes onde parar não é uma opção — operações industriais 24/7, times de até 20 pessoas, integrações entre sistemas complexos e clientes com os mais variados níveis de maturidade.",
+    "p2": "Não tenho perfil de consultor que entrega metodologia em PowerPoint e vai embora. Fico até o go-live. Ajusto o plano quando o escopo muda na quinta semana. Negocio com stakeholders que têm objetivos conflitantes. E transfiro conhecimento de verdade — para o cliente, para o time, para quem vai manter o sistema funcionando.",
+    "p3": "Método importa. Mas o que entrega resultado é pragmatismo, capacidade de adaptação e foco no que realmente importa para o negócio.",
+    "badge1": "Operações Industriais 24/7",
+    "badge2": "PMO & Portfólio",
+    "badge3": "Integrações de Alta Complexidade"
   },
   "contact": {
     "title": "Vamos conversar",
@@ -72,19 +72,19 @@
       "subtitle": "PMO · Gestão de Projetos · Portfólio · Liderança de Times",
       "location": "Criciúma, SC, Brasil",
       "stat1": "20+",
-      "stat1label": "anos de experiência",
-      "stat2": "4",
-      "stat2label": "cargos de liderança",
-      "stat3": "ERP",
-      "stat3label": "projetos de alta complexidade",
+      "stat1label": "anos entregando projetos complexos",
+      "stat2": "20+",
+      "stat2label": "profissionais liderados por projeto",
+      "stat3": "24/7",
+      "stat3label": "operações críticas onde atraso não é opção",
       "cta": "Ver serviços",
       "ctaContact": "Contato"
     },
     "summary": {
       "title": "Sobre",
-      "p1": "Carreira consolidada de mais de 20 anos em TI, com foco em gestão de projetos, portfólio e PMO. Toda a trajetória na Agrosys Tecnologia, empresa nacional de referência em Serviços de Tecnologia para o Agronegócio.",
-      "p2": "Expertise em todo o ciclo de gestão de projetos: planejamento, controle de escopo, cronograma, SLA, gestão de riscos e alinhamento com stakeholders. Especialidade na estruturação de metodologias e formação de times de alto desempenho.",
-      "p3": "Experiência em liderança de equipes de até 20 pessoas, gestão de conflitos, melhoria contínua e governança de processos — sempre com foco em resultado e não em burocracia."
+      "p1": "Mais de 20 anos entregando projetos de alta complexidade em ambientes industriais críticos — operações 24 horas, 7 dias por semana, onde uma falha de sistema significa parada de produção. Gestão de times multidisciplinares de até 20 profissionais: desenvolvedores, analistas de negócio e consultores de implantação em campo.",
+      "p2": "Especialista no ciclo completo de projetos: do diagnóstico ao go-live e à transferência de conhecimento. Ampla vivência em implantações ERP multi-módulo, integrações entre plataformas distintas, gestão de escopo sob mudança constante e navegação de múltiplos stakeholders — cliente, fornecedores e equipes internas. Quando o plano A não funciona, o plano B já está sendo construído.",
+      "p3": "Cada projeto traz um problema diferente: clientes com times pequenos, orçamentos apertados, integrações sem precedente, escopo que muda na semana do go-live. O método serve — mas o que entrega resultado é saber adaptar, decidir sob pressão e fazer o time chegar lá do jeito que o contexto permite."
     },
     "exp": {
       "title": "Experiência",

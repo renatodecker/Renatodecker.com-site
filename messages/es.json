@@ -17,31 +17,31 @@
     "s1": {
       "tag": "Consultoría",
       "title": "Estructuración de PMO",
-      "description": "Monto y organizo oficinas de proyectos desde cero. Del diagnóstico a la operación, creo metodologías, ritos, artefactos y gobernanza alineados al contexto y cultura de tu empresa.",
+      "description": "Monto oficinas de proyectos con metodología que funciona en la práctica, no solo en el papel. Del diagnóstico de madurez a la operación con portafolio en marcha — ritos, artefactos, gobernanza e indicadores adaptados al contexto real de tu empresa.",
       "items": ["Diagnóstico de madurez", "Diseño de metodología", "Plantillas y artefactos", "Gobernanza e indicadores", "Implementación asistida"]
     },
     "s2": {
       "tag": "Gestión",
       "title": "PMO & Gestión de Proyectos",
-      "description": "Asumo la gestión de proyectos estratégicos como PMO o GP dedicado. Entrego estructura, visibilidad y resultados — sin que necesites armar un equipo interno desde cero.",
+      "description": "Asumo el proyecto como si fuera mío — del kickoff al go-live. Gestión de alcance real, control de stakeholders, navegación de conflictos e informes que dicen lo que hay que decir. Cuando el plan cambia, la entrega no puede cambiar.",
       "items": ["Gestión de portafolio", "Coordinación de stakeholders", "Control de cronograma y alcance", "Informes ejecutivos", "Gestión de riesgos y cambios"]
     },
     "s3": {
       "tag": "Entrenamiento",
       "title": "Desarrollo de Gerentes",
-      "description": "Para quienes ya conocen la teoría y necesitan práctica real. Talleres y mentorías enfocados en situaciones cotidianas: conversaciones difíciles, decisiones bajo presión, liderazgo de equipos y navegación política.",
-      "items": ["Mentoría individual", "Talleres prácticos", "Simulaciones de escenario", "Gestión de conflictos", "Liderazgo situacional"]
+      "description": "Para quienes saben qué es PMBOK y Agile, pero se bloquean cuando el alcance explota, el cliente desaparece y el C-level quiere una respuesta en 10 minutos. Mentorías y talleres basados en situaciones reales — no en casos de libro.",
+      "items": ["Mentoría individual", "Talleres prácticos", "Simulaciones de escenario real", "Gestión de conflictos", "Decisiones bajo presión"]
     },
     "cta": "Quiero saber más"
   },
   "about": {
     "title": "Sobre mí",
-    "p1": "Soy Renato Decker, gerente de proyectos con más de una década de experiencia en entornos complejos, multiculturales y de alta presión.",
-    "p2": "He trabajado con PMO estratégico, proyectos de transformación digital, fusiones y expansión internacional. Mi enfoque combina rigor metodológico con pragmatismo: lo que importa es el resultado, no el certificado en la pared.",
-    "p3": "Creo que la gestión de proyectos es, ante todo, sobre personas. La metodología es una herramienta, no un fin.",
-    "badge1": "Experiencia Internacional",
-    "badge2": "PMO Estratégico",
-    "badge3": "Transformación Digital"
+    "p1": "Soy Renato Decker. Pasé más de 20 años gestionando proyectos en entornos donde parar no es una opción — operaciones industriales 24/7, equipos de hasta 20 personas, integraciones complejas entre sistemas y clientes con los más variados niveles de madurez.",
+    "p2": "No tengo perfil de consultor que entrega una metodología en PowerPoint y se va. Me quedo hasta el go-live. Ajusto el plan cuando el alcance cambia en la quinta semana. Negocio entre stakeholders con objetivos conflictivos. Y transfiero conocimiento de verdad — al cliente, a su equipo, a quien va a mantener el sistema funcionando.",
+    "p3": "El método importa. Pero lo que entrega resultados es pragmatismo, capacidad de adaptación y foco en lo que realmente le importa al negocio.",
+    "badge1": "Operaciones Industriales 24/7",
+    "badge2": "PMO & Portafolio",
+    "badge3": "Integraciones de Alta Complejidad"
   },
   "contact": {
     "title": "Hablemos",
@@ -72,19 +72,19 @@
       "subtitle": "PMO · Gestión de Proyectos · Portafolio · Liderazgo de Equipos",
       "location": "Criciúma, SC, Brasil",
       "stat1": "20+",
-      "stat1label": "años de experiencia",
-      "stat2": "4",
-      "stat2label": "cargos de liderazgo",
-      "stat3": "ERP",
-      "stat3label": "proyectos de alta complejidad",
+      "stat1label": "años entregando proyectos complejos",
+      "stat2": "20+",
+      "stat2label": "profesionales liderados por proyecto",
+      "stat3": "24/7",
+      "stat3label": "operaciones críticas donde el retraso no es opción",
       "cta": "Ver servicios",
       "ctaContact": "Contacto"
     },
     "summary": {
       "title": "Sobre mí",
-      "p1": "Carrera consolidada de más de 20 años en TI, con foco en gestión de proyectos, portafolio y PMO. Toda la trayectoria en Agrosys Tecnologia, empresa nacional de referencia en Servicios de Tecnología para el Agronegocio.",
-      "p2": "Experiencia en todo el ciclo de gestión de proyectos: planificación, control de alcance, cronograma, SLA, gestión de riesgos y alineación con stakeholders. Especialidad en estructuración de metodologías y formación de equipos de alto desempeño.",
-      "p3": "Experiencia liderando equipos de hasta 20 personas, gestión de conflictos, mejora continua y gobernanza de procesos — siempre con foco en resultados, no en burocracia."
+      "p1": "Más de 20 años entregando proyectos de alta complejidad en entornos industriales críticos — operaciones 24 horas, 7 días a la semana, donde una falla de sistema significa parada de producción. Gestión de equipos multidisciplinarios de hasta 20 profesionales: desarrolladores, analistas de negocio y consultores de implantación en campo.",
+      "p2": "Especialista en el ciclo completo de proyectos: del diagnóstico al go-live y transferencia de conocimiento. Amplia experiencia en implantaciones ERP multi-módulo, integraciones entre plataformas distintas, gestión de alcance bajo cambio constante y navegación de múltiples stakeholders. Cuando el plan A no funciona, el plan B ya está siendo construido.",
+      "p3": "Cada proyecto trae un problema diferente: equipos pequeños, presupuestos ajustados, integraciones sin precedente, alcance que cambia en la semana del go-live. El método sirve — pero lo que entrega resultados es saber adaptarse, decidir bajo presión y llevar al equipo a la meta con los recursos disponibles."
     },
     "exp": {
       "title": "Experiencia",

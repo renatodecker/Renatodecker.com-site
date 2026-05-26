@@ -17,31 +17,31 @@
     "s1": {
       "tag": "Consulting",
       "title": "PMO Setup & Structuring",
-      "description": "I build and organize project offices from scratch. From diagnosis to operation, I create methodologies, rituals, artifacts, and governance aligned with your company's context and culture.",
+      "description": "I build project offices with methodology that works in practice, not just on paper. From maturity assessment to a running portfolio operation — rituals, artifacts, governance, and KPIs adapted to your company's actual context.",
       "items": ["Maturity assessment", "Methodology design", "Templates & artifacts", "Governance & KPIs", "Assisted implementation"]
     },
     "s2": {
       "tag": "Management",
       "title": "PMO & Project Management",
-      "description": "I take over the management of strategic projects as a dedicated PMO or PM. I deliver structure, visibility, and results — without you needing to build an internal team from scratch.",
+      "description": "I take ownership of the project as if it were mine — from kickoff to go-live. Real scope management, stakeholder control, conflict navigation, and reporting that says what needs to be said. When the plan changes, the delivery cannot.",
       "items": ["Portfolio management", "Stakeholder coordination", "Schedule & scope control", "Executive reporting", "Risk & change management"]
     },
     "s3": {
       "tag": "Training",
       "title": "PM Development",
-      "description": "For those who already know the theory and need real practice. Workshops and mentoring focused on everyday situations: tough conversations, decisions under pressure, team leadership, and political navigation.",
-      "items": ["Individual mentoring", "Practical workshops", "Scenario simulations", "Conflict management", "Situational leadership"]
+      "description": "For those who know PMBOK and Agile but freeze when scope explodes, the client goes dark, and the C-level wants an answer in 10 minutes. Mentoring and workshops built on real situations — not textbook cases.",
+      "items": ["Individual mentoring", "Practical workshops", "Real scenario simulations", "Conflict management", "Decisions under pressure"]
     },
     "cta": "Learn more"
   },
   "about": {
     "title": "About me",
-    "p1": "I'm Renato Decker, a project manager with over a decade of experience in complex, multicultural, and high-pressure environments.",
-    "p2": "I have worked with strategic PMO, digital transformation projects, mergers, and international expansion. My approach combines methodological rigor with pragmatism: what matters is the result, not the certificate on the wall.",
-    "p3": "I believe project management is, above all, about people. Methodology is a tool, not an end.",
-    "badge1": "International Experience",
-    "badge2": "Strategic PMO",
-    "badge3": "Digital Transformation"
+    "p1": "I'm Renato Decker. I've spent over 20 years managing projects in environments where stopping is not an option — 24/7 industrial operations, teams of up to 20 people, complex system integrations, and clients at vastly different levels of maturity.",
+    "p2": "I'm not the consultant who delivers a methodology deck and disappears. I stay through go-live. I adjust the plan when scope changes in week five. I negotiate between stakeholders with conflicting goals. And I make knowledge transfer real — to the client, to their team, to whoever will keep the system running.",
+    "p3": "Method matters. But what actually delivers results is pragmatism, adaptability, and an unrelenting focus on what truly matters to the business.",
+    "badge1": "24/7 Industrial Operations",
+    "badge2": "PMO & Portfolio",
+    "badge3": "High-Complexity Integrations"
   },
   "contact": {
     "title": "Let's talk",
@@ -72,19 +72,19 @@
       "subtitle": "PMO · Project Management · Portfolio · Team Leadership",
       "location": "Criciúma, SC, Brazil",
       "stat1": "20+",
-      "stat1label": "years of experience",
-      "stat2": "4",
-      "stat2label": "leadership roles",
-      "stat3": "ERP",
-      "stat3label": "high-complexity projects",
+      "stat1label": "years delivering complex projects",
+      "stat2": "20+",
+      "stat2label": "professionals led per project",
+      "stat3": "24/7",
+      "stat3label": "critical operations where delay is not an option",
       "cta": "View services",
       "ctaContact": "Contact"
     },
     "summary": {
       "title": "About",
-      "p1": "Over 20 years of career in IT, focused on project management, portfolio, and PMO. Entire career at Agrosys Tecnologia, a national reference company in Technology Services for Agribusiness.",
-      "p2": "Expertise across the full project management cycle: planning, scope control, scheduling, SLA, risk management, and stakeholder alignment. Specialist in building methodologies and high-performance teams.",
-      "p3": "Experience leading teams of up to 20 people, conflict management, continuous improvement, and process governance — always focused on results, not bureaucracy."
+      "p1": "Over 20 years delivering high-complexity projects in critical industrial environments — 24/7 operations where a system failure means a production halt. Managing cross-functional teams of up to 20 professionals: developers, business analysts, and implementation consultants in the field.",
+      "p2": "Specialist across the full project lifecycle: from diagnosis to go-live and knowledge transfer. Deep experience in multi-module ERP implementations, integrations between disparate platforms, scope management under constant change, and navigating multiple stakeholders — client, vendors, and internal teams. When plan A doesn't work, plan B is already being built.",
+      "p3": "Every project brings a different problem: small client teams, tight budgets, unprecedented integrations, scope that changes the week of go-live. The method matters — but what delivers results is knowing how to adapt, decide under pressure, and get the team across the finish line within whatever constraints the context allows."
     },
     "exp": {
       "title": "Experience",

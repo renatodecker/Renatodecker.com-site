@@ -17,31 +17,31 @@
     "s1": {
       "tag": "Beratung",
       "title": "PMO-Aufbau & Strukturierung",
-      "description": "Ich baue Projektbüros von Grund auf auf und strukturiere sie. Von der Diagnose bis zum Betrieb entwickle ich Methoden, Rituale, Artefakte und Governance, die zum Kontext und zur Kultur Ihres Unternehmens passen.",
+      "description": "Ich baue Projektbüros mit Methoden auf, die in der Praxis funktionieren — nicht nur auf dem Papier. Von der Reifegradanalyse bis zum laufenden Portfoliobetrieb: Rituale, Artefakte, Governance und KPIs, die zum echten Kontext Ihres Unternehmens passen.",
       "items": ["Reifegradbewertung", "Methodendesign", "Vorlagen & Artefakte", "Governance & KPIs", "Begleitete Implementierung"]
     },
     "s2": {
       "tag": "Management",
       "title": "PMO & Projektmanagement",
-      "description": "Ich übernehme das Management strategischer Projekte als dedizierter PMO oder PM. Ich liefere Struktur, Transparenz und Ergebnisse — ohne dass Sie ein internes Team von Grund auf aufbauen müssen.",
+      "description": "Ich übernehme das Projekt als wäre es meins — vom Kickoff bis zum Go-live. Echtes Scope-Management, Stakeholder-Kontrolle, Konfliktnavigation und Reporting, das sagt, was gesagt werden muss. Wenn der Plan sich ändert, darf die Lieferung das nicht.",
       "items": ["Portfoliomanagement", "Stakeholder-Koordination", "Termin- & Scope-Kontrolle", "Executive Reporting", "Risiko- & Änderungsmanagement"]
     },
     "s3": {
       "tag": "Training",
       "title": "PM-Entwicklung",
-      "description": "Für alle, die die Theorie kennen und echte Praxis brauchen. Workshops und Mentoring zu Alltagssituationen: schwierige Gespräche, Entscheidungen unter Druck, Teamführung und politische Navigation.",
-      "items": ["Individuelles Mentoring", "Praxis-Workshops", "Szenario-Simulationen", "Konfliktmanagement", "Situatives Führen"]
+      "description": "Für alle, die PMBOK und Agile kennen, aber blockieren, wenn der Scope explodiert, der Kunde abtaucht und der Vorstand in 10 Minuten eine Antwort will. Mentoring und Workshops auf Basis echter Situationen — keine Lehrbuchfälle.",
+      "items": ["Individuelles Mentoring", "Praxis-Workshops", "Echte Szenario-Simulationen", "Konfliktmanagement", "Entscheidungen unter Druck"]
     },
     "cta": "Mehr erfahren"
   },
   "about": {
     "title": "Über mich",
-    "p1": "Ich bin Renato Decker, Projektmanager mit über einem Jahrzehnt Erfahrung in komplexen, multikulturellen und druckintensiven Umgebungen.",
-    "p2": "Ich habe mit strategischen PMOs, digitalen Transformationsprojekten, Fusionen und internationaler Expansion gearbeitet. Mein Ansatz verbindet methodische Strenge mit Pragmatismus: Was zählt, ist das Ergebnis, nicht das Zertifikat an der Wand.",
-    "p3": "Ich glaube, dass Projektmanagement vor allem über Menschen ist. Methodik ist ein Werkzeug, kein Selbstzweck.",
-    "badge1": "Internationale Erfahrung",
-    "badge2": "Strategisches PMO",
-    "badge3": "Digitale Transformation"
+    "p1": "Ich bin Renato Decker. Über 20 Jahre habe ich Projekte in Umgebungen gemanagt, wo Stillstand keine Option ist — industrielle 24/7-Betriebe, Teams von bis zu 20 Personen, komplexe Systemintegrationen und Kunden mit sehr unterschiedlichen Reifegraden.",
+    "p2": "Ich bin nicht der Berater, der eine Methodik als Präsentation abliefert und verschwindet. Ich bleibe bis zum Go-live. Ich passe den Plan an, wenn sich der Scope in Woche fünf ändert. Ich verhandle zwischen Stakeholdern mit gegensätzlichen Zielen. Und ich sorge für echten Wissenstransfer — an den Kunden, an sein Team, an alle, die das System am Laufen halten.",
+    "p3": "Methodik ist wichtig. Aber was wirklich Ergebnisse liefert, ist Pragmatismus, Anpassungsfähigkeit und ein unerschütterlicher Fokus auf das, was für das Geschäft wirklich zählt.",
+    "badge1": "Industrielle 24/7-Betriebe",
+    "badge2": "PMO & Portfolio",
+    "badge3": "Hochkomplexe Integrationen"
   },
   "contact": {
     "title": "Sprechen wir",
@@ -72,19 +72,19 @@
       "subtitle": "PMO · Projektmanagement · Portfolio · Teamführung",
       "location": "Criciúma, SC, Brasilien",
       "stat1": "20+",
-      "stat1label": "Jahre Erfahrung",
-      "stat2": "4",
-      "stat2label": "Führungspositionen",
-      "stat3": "ERP",
-      "stat3label": "hochkomplexe Projekte",
+      "stat1label": "Jahre in komplexen Projekten",
+      "stat2": "20+",
+      "stat2label": "Fachkräfte pro Projekt geführt",
+      "stat3": "24/7",
+      "stat3label": "kritische Betriebe, wo Verzögerung keine Option ist",
       "cta": "Leistungen ansehen",
       "ctaContact": "Kontakt"
     },
     "summary": {
       "title": "Über mich",
-      "p1": "Über 20 Jahre Karriere in der IT mit Schwerpunkt Projektmanagement, Portfolio und PMO. Gesamte Laufbahn bei Agrosys Tecnologia, einem nationalen Referenzunternehmen für Technologiedienstleistungen im Agrarsektor.",
-      "p2": "Expertise über den gesamten Projektmanagement-Zyklus: Planung, Scope-Kontrolle, Terminplanung, SLA, Risikomanagement und Stakeholder-Alignment. Spezialist für den Aufbau von Methoden und leistungsstarken Teams.",
-      "p3": "Erfahrung in der Führung von Teams mit bis zu 20 Personen, Konfliktmanagement, kontinuierliche Verbesserung und Prozess-Governance — immer mit Fokus auf Ergebnisse, nicht auf Bürokratie."
+      "p1": "Über 20 Jahre Erfahrung in hochkomplexen Projekten in kritischen Industrieumgebungen — 24/7-Betriebe, wo ein Systemausfall einen Produktionsstopp bedeutet. Führung interdisziplinärer Teams von bis zu 20 Fachkräften: Entwickler, Business-Analysten und Implementierungsberater im Einsatz.",
+      "p2": "Spezialist für den gesamten Projektlebenszyklus: von der Diagnose bis zum Go-live und Wissenstransfer. Umfassende Erfahrung mit Multi-Modul-ERP-Implementierungen, Systemintegrationen, Scope-Management unter ständigem Wandel und der Navigation komplexer Stakeholder-Landschaften. Wenn Plan A scheitert, wird Plan B bereits aufgebaut.",
+      "p3": "Jedes Projekt bringt ein anderes Problem: kleine Kundenteams, knappe Budgets, beispiellose Integrationen, Scope-Änderungen kurz vor dem Go-live. Die Methode zählt — aber was Ergebnisse liefert, ist die Fähigkeit, sich anzupassen, unter Druck zu entscheiden und das Team ans Ziel zu bringen."
     },
     "exp": {
       "title": "Erfahrung",
