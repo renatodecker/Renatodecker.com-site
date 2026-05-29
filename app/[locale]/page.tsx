@@ -211,7 +211,7 @@ export default function HomePage() {
             <a href="mailto:renatodecker@yahoo.com.br" className="hover:text-white transition-colors">
               renatodecker@yahoo.com.br
             </a>
-            <a href="https://linkedin.com/in/renatodecker" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/renatodecker/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               LinkedIn
             </a>
           </div>
