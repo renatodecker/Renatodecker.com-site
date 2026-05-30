@@ -20,8 +20,9 @@ export default function HomeNavbar() {
   }
 
   const links = [
-    { href: "#about", label: t("about") },
+    { href: "#summary", label: t("summary") },
     { href: "#experience", label: t("experience") },
+    { href: "#programs", label: t("programs") },
     { href: "#education", label: t("education") },
   ];
 
@@ -34,12 +35,17 @@ export default function HomeNavbar() {
 
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
-            <a key={link.href} href={link.href} className="text-sm font-medium text-[var(--foreground)] hover:text-[var(--celeste)] transition-colors">
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-sm font-medium text-[var(--muted)] hover:text-[var(--navy)] transition-colors"
+            >
               {link.label}
             </a>
           ))}
           <a
-            href={`/${locale}/renatopmo`}
+            href={`/${locale}/servicos`}
+            data-track="nav-services"
             className="text-sm font-semibold px-4 py-2 bg-[var(--navy)] text-white rounded-lg hover:bg-[var(--celeste)] transition-colors"
           >
             {t("services")} →
@@ -47,7 +53,7 @@ export default function HomeNavbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-1">
+          <div className="hidden sm:flex items-center gap-1">
             {Object.entries(localeLabels).map(([loc, label]) => (
               <button
                 key={loc}
@@ -75,13 +81,35 @@ export default function HomeNavbar() {
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-[var(--border)] px-6 py-4 flex flex-col gap-4">
           {links.map((link) => (
-            <a key={link.href} href={link.href} onClick={() => setMenuOpen(false)} className="text-sm font-medium text-[var(--foreground)] hover:text-[var(--celeste)] transition-colors">
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={() => setMenuOpen(false)}
+              className="text-sm font-medium text-[var(--foreground)] hover:text-[var(--celeste)] transition-colors"
+            >
               {link.label}
             </a>
           ))}
-          <a href={`/${locale}/renatopmo`} className="text-sm font-semibold text-[var(--celeste)] hover:text-[var(--navy)] transition-colors">
+          <a
+            href={`/${locale}/servicos`}
+            data-track="nav-services-mobile"
+            className="text-sm font-semibold text-[var(--celeste)] hover:text-[var(--navy)] transition-colors"
+          >
             {t("services")} →
           </a>
+          <div className="flex items-center gap-1 pt-2 border-t border-[var(--border)]">
+            {Object.entries(localeLabels).map(([loc, label]) => (
+              <button
+                key={loc}
+                onClick={() => { switchLocale(loc); setMenuOpen(false); }}
+                className={`text-xs font-semibold px-2 py-1 rounded transition-colors cursor-pointer ${
+                  locale === loc ? "bg-[var(--navy)] text-white" : "text-[var(--muted)] hover:text-[var(--navy)]"
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
         </div>
       )}
     </header>

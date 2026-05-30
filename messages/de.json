@@ -105,29 +105,32 @@
   },
   "cv": {
     "nav": {
-      "about": "Über mich",
+      "summary": "Überblick",
       "experience": "Erfahrung",
+      "programs": "Programme",
       "education": "Ausbildung",
       "services": "Leistungen"
     },
     "hero": {
       "tag": "Projektmanager & PMO-Spezialist",
-      "subtitle": "PMO · Projektmanagement · Portfolio · Teamführung",
+      "headline": "ERP Implementation & PMO Leadership",
+      "subtitle": "Über 20 Jahre Führung von Enterprise-ERP-Implementierungen, PMO-Aufbau und komplexen Programmen in kritischen Industriebetrieben in Brasilien und Lateinamerika.",
       "location": "Criciúma, SC, Brasilien",
       "stat1": "20+",
       "stat1label": "Jahre in komplexen Projekten",
       "stat2": "45",
-      "stat2label": "aktive Projekte im Portfolio verwaltet",
+      "stat2label": "aktive Projekte im Portfolio",
       "stat3": "24/7",
-      "stat3label": "kritische Betriebe, wo Verzögerung keine Option ist",
+      "stat3label": "kritische Betriebe geleitet",
       "cta": "Leistungen ansehen",
-      "ctaContact": "Kontakt"
+      "ctaContact": "Kontakt",
+      "ctaServices": "Leistungen ansehen"
     },
     "summary": {
-      "title": "Über mich",
-      "p1": "Über 20 Jahre Erfahrung in hochkomplexen Projekten in kritischen Industrieumgebungen — 24/7-Betriebe, wo ein Systemausfall einen Produktionsstopp bedeutet. Führung interdisziplinärer Teams von bis zu 20 Fachkräften: Entwickler, Business-Analysten und Implementierungsberater im Einsatz.",
-      "p2": "Spezialist für den gesamten Projektlebenszyklus: von der Diagnose bis zum Go-live und Wissenstransfer. Umfassende Erfahrung mit Multi-Modul-ERP-Implementierungen, Systemintegrationen, Scope-Management unter ständigem Wandel und der Navigation komplexer Stakeholder-Landschaften. Wenn Plan A scheitert, wird Plan B bereits aufgebaut.",
-      "p3": "Jedes Projekt bringt ein anderes Problem: kleine Kundenteams, knappe Budgets, beispiellose Integrationen, Scope-Änderungen kurz vor dem Go-live. Die Methode zählt — aber was Ergebnisse liefert, ist die Fähigkeit, sich anzupassen, unter Druck zu entscheiden und das Team ans Ziel zu bringen."
+      "title": "Executive Summary",
+      "p1": "Über 20 Jahre Lieferung hochkomplexer Projekte in Umgebungen, wo Stillstand keine Option ist. Von der technischen Analyse bis zum Executive Management — über Softwareentwicklung, Produktführung und Portfolio-Governance — mit Fokus auf Enterprise-ERP-Implementierung und PMO-Aufbau in der Skalierung.",
+      "p2": "Spezialist für Multi-Modul-Implementierungsprogramme mit Integration von Legacy-Systemen, Drittanbieter-Plattformen und 24/7-Betrieben. Erfahrung im Aufbau von PMOs von Grund auf — von der Methodendefinition bis zur Governance-Implementierung mit Ritualen und KPIs, die über das Ausgangsprojekt hinaus funktionieren.",
+      "p3": "Portfolio mit Projekten in allen Regionen Brasiliens und lateinamerikanischen Märkten — Paraguay und Peru — mit interdisziplinären Teams von bis zu 20 Fachkräften, ~45 gleichzeitigen Projekten und konsistenter Erfolgsbilanz bei pünktlicher und scope-gerechter Lieferung."
     },
     "exp": {
       "title": "Erfahrung",
@@ -213,6 +216,69 @@
       "title": "Brauchen Sie einen PMO oder Projektmanager?",
       "subtitle": "Entdecken Sie Beratungs-, Projektmanagement- und Team-Trainingsleistungen.",
       "btn": "Leistungen ansehen →"
+    },
+    "expertise": {
+      "title": "Kernkompetenzen",
+      "items": [
+        "ERP-Implementierung",
+        "PMO-Strukturierung",
+        "Unternehmens-Governance",
+        "Program Recovery",
+        "Delivery Leadership",
+        "Stakeholder Management",
+        "Post Go-Live Stabilisierung",
+        "Teamführung",
+        "Executive Reporting",
+        "Funktionsübergreifende Koordination",
+        "Scope-Management",
+        "Systemintegration"
+      ]
+    },
+    "programs": {
+      "title": "Programme & Komplexe Projekte",
+      "subtitle": "Erfahrung in der Leitung hochkomplexer Programme in kritischen Umgebungen. Kunden geschützt.",
+      "p1": {
+        "tag": "Agroindustrie · 24/7-Betrieb",
+        "title": "Multi-Modul-ERP im Kontinuierlichen Betrieb",
+        "scale": "230k Einheiten/Tag · 6 Module · 20 Fachkräfte",
+        "desc": "Implementierung in einem industriellen Umfeld mit unterbrechenem Betrieb — null Toleranz für Ausfallzeiten. Integration von Shopfloor, WMS, Versand und Qualität mit bestehenden Produktionssystemen. Scope in konstantem Anpassungsprozess bis zum Go-live. Pünktlich geliefert."
+      },
+      "p2": {
+        "tag": "Geflügel · Enterprise-Integration",
+        "title": "ERP × B2B E-Commerce — Präzedenzlose Integration",
+        "scale": "3 technische Ansätze · 15 Fachkräfte · 100% Handelsrichtlinien synchronisiert",
+        "desc": "Integration eines ERPs mit hochgradig angepassten Handelsrichtlinien in eine B2B-Plattform eines Drittanbieters — ohne Vorerfahrung bei dieser Integrationsart. Nach drei verschiedenen technischen Ansätzen wurde ein hybrides Sync/Async-Modell von Grund auf entwickelt. Go-live mit vollständiger Datenintegrität."
+      },
+      "p3": {
+        "tag": "PMO · Unternehmensstrukturierung",
+        "title": "PMO-Aufbau & Managementmethodik",
+        "scale": "6 PMs · 20 Berater · ~45 gleichzeitige Projekte",
+        "desc": "Aufbau des unternehmensinternen Projektbüros von Grund auf: Methodik, Governance, Rituale, Artefakte und KPIs, angepasst an den realen Kontext der Organisation. Eine Struktur, die noch Jahre nach der Implementierung operational und als interne Referenz bleibt."
+      },
+      "p4": {
+        "tag": "Landwirtschaft · Ressourcenbeschränkungen",
+        "title": "End-to-End-ERP mit Reduziertem Team",
+        "scale": "18 Fachkräfte · 0 Anpassungen · 100% Drittanbieter-Training",
+        "desc": "Vollständige Back-Office- und Produktionsimplementierung mit einem kleineren Kundenteam als üblich. Das gesamte Training wurde an eine beauftragte Beratungsfirma gerichtet — kein qualifiziertes internes Team. Pünktlich und im Budget geliefert."
+      }
+    },
+    "philosophy": {
+      "title": "Führungsphilosophie",
+      "p1": "Projektmanagement bedeutet nicht, einem Framework zu folgen — es bedeutet, das Umfeld zu lesen, den Ansatz anzupassen und das Team auf das richtige Ergebnis ausgerichtet zu halten, unabhängig davon, was sich unterwegs ändert. Methode zählt. Aber methodische Starrheit im Feld schafft mehr Probleme als sie löst.",
+      "p2": "Echtes Stakeholder-Management ist Kommunikation mit Mut: nicht nur berichten, was im Terminplan steht, sondern benennen, was auf dem Spiel steht, bevor es zur Krise wird. Das erfordert gleichzeitig technische und managerielle Glaubwürdigkeit aufzubauen — und sie zu bewahren, wenn der Druck steigt.",
+      "p3": "Governance ist keine Bürokratie. Es ist die Menge an Ritualen, Artefakten und Entscheidungen, die ein Portfolio für Entscheider lesbar hält. Ein PMO, das Dokumentation produziert, ohne Hindernisse zu beseitigen, regiert nicht — es archiviert. Der Unterschied liegt in der Bereitschaft, schwierige Gespräche zu führen und auf das zu reagieren, was die Daten zeigen."
+    },
+    "international": {
+      "title": "Internationale Präsenz",
+      "subtitle": "Projekte in Brasilien und Lateinamerika, mit professioneller Kommunikation auf Englisch und Spanisch und Ausrichtung an internationalen Enterprise-Standards.",
+      "items": [
+        "Brasilien — alle Regionen",
+        "Paraguay",
+        "Peru",
+        "Professionelles Englisch",
+        "Professionelles Spanisch",
+        "Globale Enterprise-Umgebungen"
+      ]
     }
   }
 }

@@ -105,29 +105,32 @@
   },
   "cv": {
     "nav": {
-      "about": "Sobre",
+      "summary": "Resumo",
       "experience": "Experiência",
+      "programs": "Programas",
       "education": "Formação",
       "services": "Serviços"
     },
     "hero": {
       "tag": "Gestor de Projetos & Especialista em PMO",
-      "subtitle": "PMO · Gestão de Projetos · Portfólio · Liderança de Times",
+      "headline": "ERP Implementation & PMO Leadership",
+      "subtitle": "20+ anos liderando implantações ERP enterprise, estruturação de PMO e programas complexos em operações industriais críticas no Brasil e América Latina.",
       "location": "Criciúma, SC, Brasil",
       "stat1": "20+",
-      "stat1label": "anos entregando projetos complexos",
+      "stat1label": "anos em projetos complexos",
       "stat2": "45",
-      "stat2label": "projetos ativos gerenciados no portfólio",
+      "stat2label": "projetos ativos gerenciados",
       "stat3": "24/7",
-      "stat3label": "operações críticas onde atraso não é opção",
+      "stat3label": "operações críticas lideradas",
       "cta": "Ver serviços",
-      "ctaContact": "Contato"
+      "ctaContact": "Contato",
+      "ctaServices": "Ver Serviços"
     },
     "summary": {
-      "title": "Sobre",
-      "p1": "Mais de 20 anos entregando projetos de alta complexidade em ambientes industriais críticos — operações 24 horas, 7 dias por semana, onde uma falha de sistema significa parada de produção. Gestão de times multidisciplinares de até 20 profissionais: desenvolvedores, analistas de negócio e consultores de implantação em campo.",
-      "p2": "Especialista no ciclo completo de projetos: do diagnóstico ao go-live e à transferência de conhecimento. Ampla vivência em implantações ERP multi-módulo, integrações entre plataformas distintas, gestão de escopo sob mudança constante e navegação de múltiplos stakeholders — cliente, fornecedores e equipes internas. Quando o plano A não funciona, o plano B já está sendo construído.",
-      "p3": "Cada projeto traz um problema diferente: clientes com times pequenos, orçamentos apertados, integrações sem precedente, escopo que muda na semana do go-live. O método serve — mas o que entrega resultado é saber adaptar, decidir sob pressão e fazer o time chegar lá do jeito que o contexto permite."
+      "title": "Resumo Executivo",
+      "p1": "Mais de 20 anos entregando projetos de alta complexidade em ambientes onde parar não é uma opção. Da análise técnica à gestão executiva — passando por desenvolvimento de software, liderança de produto e gestão de portfólio — com foco em implantação ERP enterprise e estruturação de PMO em escala.",
+      "p2": "Especialista em programas de implantação multi-módulo com integração entre sistemas legados, plataformas de terceiros e operações 24/7. Experiência na criação de PMO do zero — da definição de metodologia à implementação de governança, rituais e indicadores que funcionam além do projeto inicial.",
+      "p3": "Portfólio com projetos em todas as regiões do Brasil e em mercados da América Latina — Paraguai e Peru — com equipes multidisciplinares de até 20 profissionais, ~45 projetos simultâneos e histórico consistente de entrega dentro do prazo e do escopo acordado."
     },
     "exp": {
       "title": "Experiência",
@@ -213,6 +216,69 @@
       "title": "Precisa de um PMO ou Gestor de Projetos?",
       "subtitle": "Conheça os serviços de consultoria, gestão de projetos e treinamento para equipes.",
       "btn": "Ver serviços →"
+    },
+    "expertise": {
+      "title": "Competências Core",
+      "items": [
+        "Implantação ERP",
+        "Estruturação de PMO",
+        "Governança Corporativa",
+        "Program Recovery",
+        "Liderança de Entrega",
+        "Stakeholder Management",
+        "Estabilização Pós Go-Live",
+        "Liderança de Times",
+        "Executive Reporting",
+        "Coordenação Cross-funcional",
+        "Gestão de Escopo",
+        "Integração de Sistemas"
+      ]
+    },
+    "programs": {
+      "title": "Programas & Projetos Complexos",
+      "subtitle": "Experiência conduzindo programas de alta complexidade em ambientes críticos. Clientes preservados.",
+      "p1": {
+        "tag": "Agroindustrial · Operação 24/7",
+        "title": "ERP Multi-módulo em Operação Contínua",
+        "scale": "230k unidades/dia · 6 módulos · 20 profissionais",
+        "desc": "Implantação em ambiente industrial com operação ininterrupta — tolerância zero a parada. Integração de chão de fábrica, WMS, expedição e qualidade com sistemas produtivos legados. Scope em ajuste constante até o go-live. Entregue no prazo."
+      },
+      "p2": {
+        "tag": "Avicultura · Integração Enterprise",
+        "title": "ERP × E-commerce B2B — Integração sem Precedente",
+        "scale": "3 abordagens técnicas · 15 profissionais · 100% políticas sincronizadas",
+        "desc": "Integração de ERP com políticas comerciais altamente customizadas a plataforma B2B de terceiro — sem experiência prévia nesse tipo de integração. Após três abordagens técnicas distintas, modelo híbrido síncrono/assíncrono desenvolvido do zero. Go-live com integridade total de dados."
+      },
+      "p3": {
+        "tag": "PMO · Estruturação Corporativa",
+        "title": "Criação do PMO & Metodologia de Gestão",
+        "scale": "6 GPs · 20 consultores · ~45 projetos simultâneos",
+        "desc": "Criação do escritório de projetos da empresa do zero: metodologia, governança, rituais, artefatos e indicadores adaptados ao contexto real da organização. Estrutura que permanece operacional e como referência interna anos após a implementação."
+      },
+      "p4": {
+        "tag": "Agropecuária · Restrição de Recursos",
+        "title": "ERP End-to-end com Time Reduzido",
+        "scale": "18 profissionais · 0 customizações · 100% treinamento terceirizado",
+        "desc": "Implantação completa de back-office e produção com equipe do cliente abaixo do habitual. Todo o treinamento direcionado a empresa de consultoria parceira contratada para operar o sistema — sem equipe interna qualificada. Entregue no prazo e no orçamento."
+      }
+    },
+    "philosophy": {
+      "title": "Visão de Gestão",
+      "p1": "Gestão de projetos não é sobre seguir um framework — é sobre ler o ambiente, adaptar a abordagem e manter o time orientado ao resultado certo, independente do que muda pelo caminho. Método importa. Mas rigidez metodológica em campo cria mais problemas do que resolve.",
+      "p2": "Stakeholder management real é comunicação com coragem: não só reportar o que está no cronograma, mas nomear o que está em risco antes que vire crise. Isso exige construir credibilidade técnica e gerencial ao mesmo tempo — e manter essa credibilidade quando a pressão aumenta.",
+      "p3": "Governança não é burocracia. É o conjunto de rituais, artefatos e decisões que mantém um portfólio legível para quem decide. Um PMO que produz documentação sem remover obstáculos não governa — arquiva. A diferença está na disposição de ter conversas difíceis e de agir sobre o que os dados mostram."
+    },
+    "international": {
+      "title": "Atuação Internacional",
+      "subtitle": "Projetos conduzidos no Brasil e América Latina, com comunicação profissional em inglês e espanhol e alinhamento com padrões enterprise internacionais.",
+      "items": [
+        "Brasil — todas as regiões",
+        "Paraguai",
+        "Peru",
+        "Inglês profissional",
+        "Espanhol profissional",
+        "Ambiente enterprise global"
+      ]
     }
   }
 }
