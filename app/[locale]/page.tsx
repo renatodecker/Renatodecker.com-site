@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import HomeNavbar from "@/components/HomeNavbar";
 
 function Label({ children }: { children: React.ReactNode }) {
@@ -19,7 +19,6 @@ function DarkLabel({ children }: { children: React.ReactNode }) {
 
 export default function HomePage() {
   const t = useTranslations("cv");
-  const locale = useLocale();
 
   return (
     <>
@@ -87,13 +86,6 @@ export default function HomePage() {
                     className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-white text-sm font-semibold rounded-lg hover:bg-white/8 transition-colors"
                   >
                     LinkedIn
-                  </a>
-                  <a
-                    href={`/${locale}/servicos`}
-                    data-track="hero-cta-services"
-                    className="inline-flex items-center gap-2 px-6 py-3 border border-white/10 text-white/50 text-sm font-medium rounded-lg hover:text-white hover:border-white/20 transition-colors"
-                  >
-                    {t("hero.ctaServices")} →
                   </a>
                 </div>
               </div>
@@ -309,13 +301,6 @@ export default function HomePage() {
                 className="hover:text-white transition-colors"
               >
                 LinkedIn
-              </a>
-              <a
-                href={`/${locale}/servicos`}
-                data-track="footer-services"
-                className="hover:text-white transition-colors"
-              >
-                {t("cta.btn")}
               </a>
             </div>
             <span className="text-white/20 text-xs">

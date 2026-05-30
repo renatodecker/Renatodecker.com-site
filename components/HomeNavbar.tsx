@@ -43,13 +43,6 @@ export default function HomeNavbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href={`/${locale}/servicos`}
-            data-track="nav-services"
-            className="text-sm font-semibold px-4 py-2 bg-[var(--navy)] text-white rounded-lg hover:bg-[var(--celeste)] transition-colors"
-          >
-            {t("services")} →
-          </a>
         </div>
 
         <div className="flex items-center gap-3">
@@ -90,13 +83,6 @@ export default function HomeNavbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href={`/${locale}/servicos`}
-            data-track="nav-services-mobile"
-            className="text-sm font-semibold text-[var(--celeste)] hover:text-[var(--navy)] transition-colors"
-          >
-            {t("services")} →
-          </a>
           <div className="flex items-center gap-1 pt-2 border-t border-[var(--border)]">
             {Object.entries(localeLabels).map(([loc, label]) => (
               <button
