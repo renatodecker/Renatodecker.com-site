@@ -201,7 +201,7 @@
       "e2": { "inst": "UNESC", "degree": "MBA", "field": "People Management", "period": "2016 – 2018" },
       "e3": { "inst": "Esucri", "degree": "Postgraduate", "field": "IT Project Management", "period": "2008 – 2010" },
       "e4": { "inst": "UNISUL", "degree": "Technologist", "field": "Computer Networks / IT", "period": "2005 – 2007" },
-      "e5": { "inst": "UFSC", "degree": "Bachelor's", "field": "Information Technology", "period": "2001 – 2004" }
+      "e5": { "inst": "UFSC", "degree": "Bachelor's", "field": "Information Systems", "period": "2001 – 2004" }
     },
     "languages": {
       "title": "Languages",

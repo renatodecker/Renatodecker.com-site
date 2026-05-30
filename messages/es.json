@@ -201,7 +201,7 @@
       "e2": { "inst": "UNESC", "degree": "MBA", "field": "Gestión de Personas", "period": "2016 – 2018" },
       "e3": { "inst": "Esucri", "degree": "Posgrado", "field": "Gestión de Proyectos en TI", "period": "2008 – 2010" },
       "e4": { "inst": "UNISUL", "degree": "Tecnólogo", "field": "Redes de Computadoras / TI", "period": "2005 – 2007" },
-      "e5": { "inst": "UFSC", "degree": "Licenciatura", "field": "Tecnología de la Información", "period": "2001 – 2004" }
+      "e5": { "inst": "UFSC", "degree": "Licenciatura", "field": "Sistemas de Información", "period": "2001 – 2004" }
     },
     "languages": {
       "title": "Idiomas",
