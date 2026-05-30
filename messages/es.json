@@ -5,9 +5,9 @@
     "contact": "Contacto"
   },
   "hero": {
-    "tag": "Gestión de Proyectos & PMO",
-    "title": "Proyectos que entregan. Organizaciones que evolucionan.",
-    "subtitle": "Estructuro oficinas de proyectos, lidero entregas complejas y desarrollo gerentes de proyectos listos para el mundo real.",
+    "tag": "PMO · Gestión de Proyectos · Implantación ERP",
+    "title": "Cuando el proyecto no puede fallar.",
+    "subtitle": "20 años gestionando proyectos en operaciones industriales críticas — desde la implantación de ERP hasta la estructuración de PMO. Experiencia de campo que ningún manual enseña.",
     "cta": "Conoce los servicios",
     "ctaSecondary": "Contáctame"
   },
@@ -59,6 +59,49 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados."
+  },
+  "symptoms": {
+    "title": "¿Reconoces alguno de estos síntomas?",
+    "subtitle": "Si es así, estás en el lugar correcto.",
+    "s1": "Proyectos que se retrasan — aunque haya cronograma, reuniones semanales y buena voluntad de todos",
+    "s2": "Dirección ejecutiva sin visibilidad real: los informes existen, pero nadie confía en los números",
+    "s3": "Decenas de iniciativas compitiendo por los mismos recursos sin priorización clara",
+    "s4": "PMO que produce artefactos e informes, pero no remueve obstáculos ni toma decisiones",
+    "s5": "Gerentes de proyectos con buena formación, bloqueados ante la presión, el conflicto y la política",
+    "s6": "Alcance que cambia constantemente y nadie tiene autoridad para decidir"
+  },
+  "cases": {
+    "title": "Proyectos entregados",
+    "subtitle": "Casos reales. Clientes protegidos.",
+    "challengeLabel": "Desafío",
+    "resultLabel": "Resultado",
+    "c1": {
+      "industry": "Agroindustrial",
+      "type": "ERP Multi-módulo · 24/7",
+      "stat1": "230k", "stat1l": "unidades/día en operación",
+      "stat2": "20", "stat2l": "profesionales en el equipo",
+      "stat3": "6", "stat3l": "módulos integrados",
+      "challenge": "Implantación en matadero industrial con operación continua 24/7 — tolerancia cero a paradas. Integración de piso de fábrica, WMS, expedición y calidad con sistemas productivos existentes. Alcance en ajuste constante por personalizaciones exigidas por el cliente.",
+      "result": "Entregado en plazo. Reducción del 20% en tiempo de retrabajo de entrada de datos. Gestión de inventario y expedición integradas con visibilidad en tiempo real."
+    },
+    "c2": {
+      "industry": "Avicultura & Distribución",
+      "type": "Integración ERP × E-commerce B2B",
+      "stat1": "3", "stat1l": "modelos de integración probados",
+      "stat2": "15", "stat2l": "profesionales en el equipo",
+      "stat3": "100%", "stat3l": "de las políticas comerciales sincronizadas",
+      "challenge": "Integración de ERP — con políticas comerciales altamente personalizadas — a plataforma B2B desarrollada por terceros. Sin experiencia previa en este tipo de integración. Procesos online del cliente no definidos al inicio del proyecto.",
+      "result": "Tras tres enfoques técnicos distintos, modelo híbrido síncrono/asíncrono desarrollado desde cero. Go-live completado con integridad de datos garantizada y políticas comerciales funcionando correctamente online."
+    },
+    "c3": {
+      "industry": "Agropecuaria & Producción",
+      "type": "ERP End-to-end · Budget Restringido",
+      "stat1": "18", "stat1l": "profesionales en el equipo",
+      "stat2": "0", "stat2l": "personalizaciones — producto estándar",
+      "stat3": "100%", "stat3l": "formación para consultoría tercerizada",
+      "challenge": "Implantación completa de back-office y producción con equipo del cliente menor al habitual. Todo el entrenamiento fue dirigido a empresa consultora contratada por el cliente para operar el sistema — sin equipo interno calificado.",
+      "result": "Entregado en plazo y dentro del presupuesto. Empresa consultora capacitada para operar todos los módulos y brindar soporte independiente al cliente."
+    }
   },
   "cv": {
     "nav": {

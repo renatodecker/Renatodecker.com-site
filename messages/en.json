@@ -5,9 +5,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "tag": "Project Management & PMO",
-    "title": "Projects that deliver. Organizations that evolve.",
-    "subtitle": "I set up project offices, lead complex deliveries, and develop project managers ready for the real world.",
+    "tag": "PMO · Project Management · ERP Implementation",
+    "title": "When the project cannot fail.",
+    "subtitle": "20 years managing projects in critical industrial operations — from ERP implementation to PMO structuring. Field experience that no manual can teach.",
     "cta": "Explore services",
     "ctaSecondary": "Get in touch"
   },
@@ -59,6 +59,49 @@
   },
   "footer": {
     "rights": "All rights reserved."
+  },
+  "symptoms": {
+    "title": "Do any of these sound familiar?",
+    "subtitle": "If so, you're in the right place.",
+    "s1": "Projects that keep slipping — despite schedules, weekly check-ins, and everyone's best intentions",
+    "s2": "Executive management without real visibility: reports exist, but nobody trusts the numbers",
+    "s3": "Dozens of initiatives competing for the same resources with no clear prioritization",
+    "s4": "A PMO that generates artifacts and reports but removes no obstacles and makes no decisions",
+    "s5": "Project managers with solid training who freeze under pressure, conflict, and organizational politics",
+    "s6": "Scope that changes constantly, with no one having clear authority to decide"
+  },
+  "cases": {
+    "title": "Delivered projects",
+    "subtitle": "Real cases. Clients protected.",
+    "challengeLabel": "Challenge",
+    "resultLabel": "Result",
+    "c1": {
+      "industry": "Agroindustrial",
+      "type": "Multi-module ERP · 24/7 Operations",
+      "stat1": "230k", "stat1l": "units processed per day",
+      "stat2": "20", "stat2l": "team members",
+      "stat3": "6", "stat3l": "integrated modules",
+      "challenge": "Implementation in an industrial slaughterhouse running 24/7 — zero tolerance for downtime. Integration of shop floor, WMS, shipping, and quality with existing production systems. Scope under constant adjustment due to client-required customizations.",
+      "result": "Delivered on time. 20% reduction in data entry rework. Integrated inventory and shipping with real-time visibility across the entire operation."
+    },
+    "c2": {
+      "industry": "Poultry & Distribution",
+      "type": "ERP × B2B E-commerce Integration",
+      "stat1": "3", "stat1l": "integration models tested",
+      "stat2": "15", "stat2l": "team members",
+      "stat3": "100%", "stat3l": "of commercial policies synchronized",
+      "challenge": "Integration of an ERP — with heavily customized commercial policies — into a B2B platform built by a third party. No prior experience with this type of integration. Client's online processes undefined at project start.",
+      "result": "After three distinct technical approaches, a hybrid sync/async model was built from scratch. Go-live completed with full data integrity and commercial policies working correctly online."
+    },
+    "c3": {
+      "industry": "Agricultural Production",
+      "type": "End-to-end ERP · Tight Budget",
+      "stat1": "18", "stat1l": "team members",
+      "stat2": "0", "stat2l": "customizations — standard product",
+      "stat3": "100%", "stat3l": "training delivered to contracted consultancy",
+      "challenge": "Full back-office and production implementation with a client team smaller than typical for this scale. All training was directed to a third-party consulting firm contracted by the client to operate the system — no qualified internal team to receive knowledge directly.",
+      "result": "Delivered on time and within budget. Consulting firm fully trained to operate all modules and provide independent support to the client."
+    }
   },
   "cv": {
     "nav": {

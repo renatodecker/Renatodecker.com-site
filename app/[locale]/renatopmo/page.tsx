@@ -99,6 +99,29 @@ export default function RenatoPmoPage() {
           </div>
         </section>
 
+        {/* ── Symptoms ─────────────────────────────────── */}
+        <section className="py-20 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[var(--navy)] mb-3">
+                {t("symptoms.title")}
+              </h2>
+              <p className="text-[var(--muted)]">{t("symptoms.subtitle")}</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {(["s1","s2","s3","s4","s5","s6"] as const).map((key) => (
+                <div key={key} className="flex items-start gap-3 p-5 rounded-xl bg-[var(--background)] border border-[var(--border)]">
+                  <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full border-2 border-[var(--celeste)] flex items-center justify-center">
+                    <span className="w-2 h-2 rounded-full bg-[var(--celeste)]" />
+                  </span>
+                  <p className="text-sm text-[var(--foreground)] leading-relaxed">{t(`symptoms.${key}`)}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Services ─────────────────────────────────── */}
         <section id="services" className="py-24 bg-[var(--background)]">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
@@ -107,6 +130,59 @@ export default function RenatoPmoPage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {services.map((s) => <ServiceCard key={s.title} {...s} cta={t("services.cta")} />)}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Cases ────────────────────────────────────── */}
+        <section className="py-24 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="text-center mb-16">
+              <span className="text-xs font-bold uppercase tracking-widest text-[var(--celeste)] mb-3 block">
+                {t("cases.title")}
+              </span>
+              <p className="text-[var(--muted)] max-w-xl mx-auto">{t("cases.subtitle")}</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {(["c1","c2","c3"] as const).map((key) => (
+                <div key={key} className="rounded-2xl border border-[var(--border)] overflow-hidden flex flex-col">
+                  {/* Card header */}
+                  <div className="bg-[var(--navy)] px-6 py-5">
+                    <div className="flex flex-wrap gap-2 mb-3">
+                      <span className="text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-white/15 text-white">
+                        {t(`cases.${key}.industry`)}
+                      </span>
+                      <span className="text-xs font-semibold px-3 py-1 rounded-full bg-[var(--celeste)]/20 text-[var(--celeste-light)]">
+                        {t(`cases.${key}.type`)}
+                      </span>
+                    </div>
+                    {/* Stats row */}
+                    <div className="grid grid-cols-3 gap-2 pt-3 border-t border-white/10">
+                      {(["stat1","stat2","stat3"] as const).map((s) => (
+                        <div key={s} className="text-center">
+                          <div className="text-xl font-black text-white">{t(`cases.${key}.${s}`)}</div>
+                          <div className="text-[10px] text-white/50 leading-tight mt-0.5">{t(`cases.${key}.${s}l`)}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  {/* Card body */}
+                  <div className="px-6 py-5 flex flex-col gap-4 flex-1 bg-white">
+                    <div>
+                      <span className="text-xs font-bold uppercase tracking-widest text-[var(--celeste)] block mb-1">
+                        {t("cases.challengeLabel")}
+                      </span>
+                      <p className="text-sm text-[var(--muted)] leading-relaxed">{t(`cases.${key}.challenge`)}</p>
+                    </div>
+                    <div>
+                      <span className="text-xs font-bold uppercase tracking-widest text-[var(--navy)] block mb-1">
+                        {t("cases.resultLabel")}
+                      </span>
+                      <p className="text-sm text-[var(--foreground)] leading-relaxed font-medium">{t(`cases.${key}.result`)}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>

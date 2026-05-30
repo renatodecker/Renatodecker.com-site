@@ -5,9 +5,9 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "tag": "Projektmanagement & PMO",
-    "title": "Projekte, die liefern. Organisationen, die wachsen.",
-    "subtitle": "Ich baue Projektbüros auf, leite komplexe Vorhaben und entwickle Projektmanager für die reale Welt.",
+    "tag": "PMO · Projektmanagement · ERP-Implementierung",
+    "title": "Wenn das Projekt nicht scheitern darf.",
+    "subtitle": "20 Jahre Projektmanagement in kritischen Industriebetrieben — von ERP-Implementierungen bis zum PMO-Aufbau. Felderfahrung, die kein Handbuch lehren kann.",
     "cta": "Leistungen entdecken",
     "ctaSecondary": "Kontakt aufnehmen"
   },
@@ -59,6 +59,49 @@
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
+  },
+  "symptoms": {
+    "title": "Erkennen Sie eines dieser Symptome?",
+    "subtitle": "Wenn ja, sind Sie hier richtig.",
+    "s1": "Projekte, die sich verzögern — trotz Terminplan, wöchentlichen Meetings und dem guten Willen aller",
+    "s2": "Führung ohne echte Transparenz: Berichte existieren, aber niemand vertraut den Zahlen",
+    "s3": "Dutzende Initiativen konkurrieren um dieselben Ressourcen ohne klare Priorisierung",
+    "s4": "Ein PMO, das Artefakte und Berichte produziert, aber keine Hindernisse beseitigt und nichts entscheidet",
+    "s5": "Projektmanager mit solider Ausbildung, die unter Druck, Konflikten und Organisationspolitik einfrieren",
+    "s6": "Ein Scope, der sich ständig ändert, ohne dass jemand die Entscheidungsbefugnis hat"
+  },
+  "cases": {
+    "title": "Abgeschlossene Projekte",
+    "subtitle": "Echte Fälle. Kunden geschützt.",
+    "challengeLabel": "Herausforderung",
+    "resultLabel": "Ergebnis",
+    "c1": {
+      "industry": "Agrarindustrie",
+      "type": "Multi-Modul ERP · 24/7-Betrieb",
+      "stat1": "230k", "stat1l": "Einheiten/Tag in Betrieb",
+      "stat2": "20", "stat2l": "Teammitglieder",
+      "stat3": "6", "stat3l": "integrierte Module",
+      "challenge": "Implementierung in einem Industrieschlachthof mit 24/7-Betrieb — null Toleranz für Ausfallzeiten. Integration von Shopfloor, WMS, Versand und Qualität mit bestehenden Produktionssystemen. Scope unter ständiger Anpassung durch kundenseitige Anforderungen.",
+      "result": "Pünktlich geliefert. 20% Reduktion der Nacharbeitszeit bei der Dateneingabe. Integriertes Bestands- und Versandmanagement mit Echtzeittransparenz."
+    },
+    "c2": {
+      "industry": "Geflügel & Vertrieb",
+      "type": "ERP × B2B E-Commerce Integration",
+      "stat1": "3", "stat1l": "getestete Integrationsmodelle",
+      "stat2": "15", "stat2l": "Teammitglieder",
+      "stat3": "100%", "stat3l": "der Handelsrichtlinien synchronisiert",
+      "challenge": "Integration eines ERP — mit stark angepassten Handelsrichtlinien — in eine von Dritten entwickelte B2B-Plattform. Keine Vorerfahrung mit dieser Art von Integration. Online-Prozesse des Kunden zu Projektbeginn nicht definiert.",
+      "result": "Nach drei verschiedenen technischen Ansätzen wurde ein hybrides Sync/Async-Modell von Grund auf entwickelt. Go-live mit vollständiger Datenintegrität und korrekt funktionierenden Handelsrichtlinien."
+    },
+    "c3": {
+      "industry": "Landwirtschaft & Produktion",
+      "type": "End-to-End ERP · Knappes Budget",
+      "stat1": "18", "stat1l": "Teammitglieder",
+      "stat2": "0", "stat2l": "Anpassungen — Standardprodukt",
+      "stat3": "100%", "stat3l": "Schulung für beauftragtes Beratungsunternehmen",
+      "challenge": "Vollständige Back-Office- und Produktionsimplementierung mit kleinerem Kundenteam als üblich. Alle Schulungen für ein vom Kunden beauftragtes Beratungsunternehmen — kein qualifiziertes internes Team.",
+      "result": "Pünktlich und im Budget geliefert. Beratungsunternehmen vollständig geschult für alle Module und unabhängigen Kundensupport."
+    }
   },
   "cv": {
     "nav": {
