@@ -41,7 +41,7 @@
     "p3": "El método importa. Pero lo que entrega resultados es pragmatismo, capacidad de adaptación y foco en lo que realmente le importa al negocio.",
     "badge1": "Operaciones Industriales 24/7",
     "badge2": "PMO & Portafolio",
-    "badge3": "Integraciones de Alta Complejidad"
+    "badge3": "América Latina — BR, PY, PE"
   },
   "contact": {
     "title": "Hablemos",
@@ -73,8 +73,8 @@
       "location": "Criciúma, SC, Brasil",
       "stat1": "20+",
       "stat1label": "años entregando proyectos complejos",
-      "stat2": "20+",
-      "stat2label": "profesionales liderados por proyecto",
+      "stat2": "45",
+      "stat2label": "proyectos activos gestionados en el portafolio",
       "stat3": "24/7",
       "stat3label": "operaciones críticas donde el retraso no es opción",
       "cta": "Ver servicios",
@@ -94,7 +94,7 @@
         "title": "Gerente de Implantación",
         "period": "jun 2022 – presente",
         "duration": "4 años",
-        "desc": "Responsable del área de Implantación, gestionando un equipo con 6 gerentes de proyectos y más de 20 colaboradores. Estructuración de metodología, procesos y gobernanza para entregas de proyectos ERP."
+        "desc": "Gestión del área de Implantación con 6 GPs y 20 consultores, portafolio de ~45 proyectos activos — más de 20 implantaciones para nuevos clientes y +40 en clientes existentes. Proyectos en todas las regiones de Brasil y América Latina (Paraguay y Perú). Modelado de la metodología de implantación, reduciendo costos y tiempo de entrega, y formación de gerentes de proyectos."
       },
       "r2": {
         "title": "Gerente de Productos",
@@ -106,13 +106,31 @@
         "title": "Gerente de Portafolio de Proyectos",
         "period": "jun 2017 – mar 2019",
         "duration": "1 año 10 meses",
-        "desc": "Gestión del portafolio de proyectos de desarrollo de software. Apoyo al equipo de gerentes de proyectos, remoción de impedimentos y alineación estratégica aplicando estándares PMBOK."
+        "desc": "Apoyo al equipo de GPs, removiendo obstáculos y negociando prioridades, recursos y plazos entre desarrollo y negocio. Creación de la oficina de proyectos de la empresa, estableciendo la metodología de gestión que estructura el área hasta hoy."
       },
       "r4": {
         "title": "Gerente de Atención y Soporte",
         "period": "abr 2016 – jun 2017",
         "duration": "1 año 3 meses",
         "desc": "Gestión de atención nivel 1 (6 personas) y soporte nivel 2 (14 personas). Control de SLA, implementación de indicadores de calidad y procesos de mejora continua."
+      },
+      "r5": {
+        "title": "Gerente de Proyectos",
+        "period": "jun 2014 – abr 2016",
+        "duration": "1 año 11 meses",
+        "desc": "Análisis de demandas, estudios de viabilidad y planificación de proyectos. Coordinación del desarrollo, control de plazos y conformidad con los requisitos. Seguimiento in situ en las implantaciones, asegurando el correcto funcionamiento del producto entregado."
+      },
+      "r6": {
+        "title": "Tech Lead",
+        "period": "jun 2012 – jun 2014",
+        "duration": "2 años 1 mes",
+        "desc": "Líder técnico de los productos PCP, Piso de Fábrica, Inventario, WMS y Logística. Liderazgo de equipo de 4 personas, seguimiento de rendimiento y distribución de tareas. Desarrollo en Progress OpenEdge."
+      },
+      "r7": {
+        "title": "Analista de Sistemas / Desarrollador",
+        "period": "jun 2005 – jun 2012",
+        "duration": "7 años 1 mes",
+        "desc": "Análisis y desarrollo de los productos PCP, Piso de Fábrica, Inventario, WMS y Logística en Progress OpenEdge. Base técnica que fundamentó la trayectoria en gestión de proyectos y producto."
       }
     },
     "skills": {
@@ -141,6 +159,12 @@
       "e3": { "inst": "Esucri", "degree": "Posgrado", "field": "Gestión de Proyectos en TI", "period": "2008 – 2010" },
       "e4": { "inst": "UNISUL", "degree": "Tecnólogo", "field": "Redes de Computadoras / TI", "period": "2005 – 2007" },
       "e5": { "inst": "UFSC", "degree": "Licenciatura", "field": "Tecnología de la Información", "period": "2001 – 2004" }
+    },
+    "languages": {
+      "title": "Idiomas",
+      "l1": "Portugués — Nativo",
+      "l2": "Inglés — Profesional",
+      "l3": "Español — Profesional"
     },
     "cta": {
       "title": "¿Necesitas un PMO o Gerente de Proyectos?",

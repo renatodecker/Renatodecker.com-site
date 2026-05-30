@@ -41,7 +41,7 @@
     "p3": "Methodik ist wichtig. Aber was wirklich Ergebnisse liefert, ist Pragmatismus, Anpassungsfähigkeit und ein unerschütterlicher Fokus auf das, was für das Geschäft wirklich zählt.",
     "badge1": "Industrielle 24/7-Betriebe",
     "badge2": "PMO & Portfolio",
-    "badge3": "Hochkomplexe Integrationen"
+    "badge3": "Lateinamerika — BR, PY, PE"
   },
   "contact": {
     "title": "Sprechen wir",
@@ -73,8 +73,8 @@
       "location": "Criciúma, SC, Brasilien",
       "stat1": "20+",
       "stat1label": "Jahre in komplexen Projekten",
-      "stat2": "20+",
-      "stat2label": "Fachkräfte pro Projekt geführt",
+      "stat2": "45",
+      "stat2label": "aktive Projekte im Portfolio verwaltet",
       "stat3": "24/7",
       "stat3label": "kritische Betriebe, wo Verzögerung keine Option ist",
       "cta": "Leistungen ansehen",
@@ -94,7 +94,7 @@
         "title": "Implementierungsleiter",
         "period": "Jun 2022 – heute",
         "duration": "4 Jahre",
-        "desc": "Verantwortlich für den Implementierungsbereich mit 6 Projektmanagern und über 20 Mitarbeitern. Aufbau von Methodik, Prozessen und Governance für ERP-Projektlieferungen. Portfolio-Kontrolle, KPIs und SLA-Management."
+        "desc": "Leitung des Implementierungsbereichs mit 6 PMs und 20 Beratern, Portfolio von ~45 aktiven Projekten — über 20 Neukundenprojekte und +40 bei Bestandskunden. Projekte in ganz Brasilien und Lateinamerika (Paraguay und Peru). Neugestaltung der Implementierungsmethodik mit reduzierten Kosten und Lieferzeiten sowie Entwicklung von Projektmanagern."
       },
       "r2": {
         "title": "Produktmanager",
@@ -106,13 +106,31 @@
         "title": "Softwareentwicklungs-Portfolio-Manager",
         "period": "Jun 2017 – Mär 2019",
         "duration": "1 Jahr 10 Monate",
-        "desc": "Management des Softwareentwicklungs-Projektportfolios. Unterstützung des Projektmanager-Teams, Beseitigung von Hindernissen und strategische Ausrichtung nach PMBOK-Standards."
+        "desc": "Unterstützung des PM-Teams durch Beseitigung von Hindernissen und Verhandlung von Prioritäten, Ressourcen und Deadlines. Gründung des unternehmensinternen Projektbüros, Etablierung der Projektmanagement-Methodik, die den Bereich bis heute prägt."
       },
       "r4": {
         "title": "Support- & Service-Manager",
         "period": "Apr 2016 – Jun 2017",
         "duration": "1 Jahr 3 Monate",
         "desc": "Management von Level-1-Support (6 Personen) und Level-2-Support (14 Personen). SLA-Definition und -Kontrolle, Implementierung von Qualitäts-KPIs und kontinuierlichen Verbesserungsprozessen."
+      },
+      "r5": {
+        "title": "Projektmanager",
+        "period": "Jun 2014 – Apr 2016",
+        "duration": "1 Jahr 11 Monate",
+        "desc": "Anforderungsanalyse, Machbarkeitsstudien und Projektplanung. Entwicklungskoordination, Terminüberwachung und Anforderungskonformität. Vor-Ort-Begleitung bei Implementierungen zur Sicherstellung des korrekten Produktbetriebs."
+      },
+      "r6": {
+        "title": "Tech Lead",
+        "period": "Jun 2012 – Jun 2014",
+        "duration": "2 Jahre 1 Monat",
+        "desc": "Technischer Leiter der Produkte PCP, Shopfloor, Lager, WMS und Logistik. Führung eines 4-köpfigen Teams mit Leistungsüberwachung und Aufgabenverteilung. Entwicklung in Progress OpenEdge."
+      },
+      "r7": {
+        "title": "Systemanalyst / Softwareentwickler",
+        "period": "Jun 2005 – Jun 2012",
+        "duration": "7 Jahre 1 Monat",
+        "desc": "Analyse und Entwicklung der Produkte PCP, Shopfloor, Lager, WMS und Logistik in Progress OpenEdge. Technisches Fundament, das den Karriereweg ins Projektmanagement und Produktmanagement begründete."
       }
     },
     "skills": {
@@ -141,6 +159,12 @@
       "e3": { "inst": "Esucri", "degree": "Postgraduiertenstudium", "field": "IT-Projektmanagement", "period": "2008 – 2010" },
       "e4": { "inst": "UNISUL", "degree": "Technologe", "field": "Computernetzwerke / IT", "period": "2005 – 2007" },
       "e5": { "inst": "UFSC", "degree": "Bachelor", "field": "Informationstechnologie", "period": "2001 – 2004" }
+    },
+    "languages": {
+      "title": "Sprachen",
+      "l1": "Portugiesisch — Muttersprache",
+      "l2": "Englisch — Beruflich",
+      "l3": "Spanisch — Beruflich"
     },
     "cta": {
       "title": "Brauchen Sie einen PMO oder Projektmanager?",

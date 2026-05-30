@@ -13,7 +13,7 @@ export default function HomePage() {
   const t = useTranslations("cv");
   const locale = useLocale();
 
-  const expRoles = ["r1", "r2", "r3", "r4"] as const;
+  const expRoles = ["r1", "r2", "r3", "r4", "r5", "r6", "r7"] as const;
   const eduEntries = ["e1", "e2", "e3", "e4", "e5"] as const;
   const skillCats = ["c1", "c2", "c3", "c4"] as const;
 
@@ -183,6 +183,20 @@ export default function HomePage() {
                     <p className="text-sm text-[var(--foreground)]">{t(`edu.${key}.degree`)} · {t(`edu.${key}.field`)}</p>
                   </div>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Languages ─────────────────────────────────── */}
+        <section className="py-12 bg-[var(--background)]">
+          <div className="max-w-4xl mx-auto px-6">
+            <SectionLabel>{t("languages.title")}</SectionLabel>
+            <div className="flex flex-wrap gap-3 mt-4">
+              {(["l1", "l2", "l3"] as const).map((key) => (
+                <span key={key} className="px-4 py-2 rounded-full bg-white border border-[var(--border)] text-sm font-medium text-[var(--foreground)]">
+                  {t(`languages.${key}` as Parameters<typeof t>[0])}
+                </span>
               ))}
             </div>
           </div>

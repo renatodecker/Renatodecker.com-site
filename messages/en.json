@@ -41,7 +41,7 @@
     "p3": "Method matters. But what actually delivers results is pragmatism, adaptability, and an unrelenting focus on what truly matters to the business.",
     "badge1": "24/7 Industrial Operations",
     "badge2": "PMO & Portfolio",
-    "badge3": "High-Complexity Integrations"
+    "badge3": "Latin America — BR, PY, PE"
   },
   "contact": {
     "title": "Let's talk",
@@ -73,8 +73,8 @@
       "location": "Criciúma, SC, Brazil",
       "stat1": "20+",
       "stat1label": "years delivering complex projects",
-      "stat2": "20+",
-      "stat2label": "professionals led per project",
+      "stat2": "45",
+      "stat2label": "active projects managed in the portfolio",
       "stat3": "24/7",
       "stat3label": "critical operations where delay is not an option",
       "cta": "View services",
@@ -94,7 +94,7 @@
         "title": "Implementation Manager",
         "period": "Jun 2022 – present",
         "duration": "4 years",
-        "desc": "Responsible for the Implementation area, managing a team of 6 project managers and 20+ employees. Structuring methodology, processes, and governance for ERP project deliveries. Portfolio control, KPIs, and SLA management."
+        "desc": "Managed the Implementation area with 6 PMs and 20 consultants, portfolio of ~45 active projects — 20+ implementations for new clients and 40+ for existing ones. Projects across all regions of Brazil and Latin America (Paraguay and Peru). Redesigned the implementation methodology, reducing costs and delivery time, and developed project managers."
       },
       "r2": {
         "title": "Product Manager",
@@ -106,13 +106,31 @@
         "title": "Software Development Portfolio Manager",
         "period": "Jun 2017 – Mar 2019",
         "duration": "1 year 10 months",
-        "desc": "Managed the software development project portfolio. Supported the project managers team, removed obstacles, ensured strategic alignment and applied PMBOK standards. Risk control and executive reporting."
+        "desc": "Supported the PM team by removing obstacles and negotiating priorities, resources, and deadlines between development and business. Created the company's project office, establishing the project management methodology that structures the area to this day."
       },
       "r4": {
         "title": "Support & Service Manager",
         "period": "Apr 2016 – Jun 2017",
         "duration": "1 year 3 months",
         "desc": "Managed level-1 support (6 people) and level-2 support (14 people). Defined and controlled SLAs, implemented quality KPIs, escalation processes, and continuous improvement initiatives."
+      },
+      "r5": {
+        "title": "Project Manager",
+        "period": "Jun 2014 – Apr 2016",
+        "duration": "1 year 11 months",
+        "desc": "Requirements analysis, feasibility studies, and project planning. Development coordination, deadline control, and compliance with requirements. On-site follow-up during implementations, ensuring correct functioning of the delivered product."
+      },
+      "r6": {
+        "title": "Tech Lead",
+        "period": "Jun 2012 – Jun 2014",
+        "duration": "2 years 1 month",
+        "desc": "Technical lead for PCP, Shop Floor, Inventory, WMS, and Logistics products. Led a team of 4, monitored performance, and distributed tasks. Development in Progress OpenEdge."
+      },
+      "r7": {
+        "title": "Systems Analyst / Software Developer",
+        "period": "Jun 2005 – Jun 2012",
+        "duration": "7 years 1 month",
+        "desc": "Analysis and development of PCP, Shop Floor, Inventory, WMS, and Logistics products in Progress OpenEdge. The technical foundation that underpinned the career path into project management and product ownership."
       }
     },
     "skills": {
@@ -141,6 +159,12 @@
       "e3": { "inst": "Esucri", "degree": "Postgraduate", "field": "IT Project Management", "period": "2008 – 2010" },
       "e4": { "inst": "UNISUL", "degree": "Technologist", "field": "Computer Networks / IT", "period": "2005 – 2007" },
       "e5": { "inst": "UFSC", "degree": "Bachelor's", "field": "Information Technology", "period": "2001 – 2004" }
+    },
+    "languages": {
+      "title": "Languages",
+      "l1": "Portuguese — Native",
+      "l2": "English — Professional",
+      "l3": "Spanish — Professional"
     },
     "cta": {
       "title": "Need a PMO or Project Manager?",
