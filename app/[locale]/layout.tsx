@@ -5,6 +5,7 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Script from "next/script";
 import { routing } from "@/i18n/routing";
+import AnalyticsEvents from "@/components/AnalyticsEvents";
 import "../globals.css";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-EW1P3FSQ72";
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <AnalyticsEvents />
         {GA_ID && (
           <>
             <Script
