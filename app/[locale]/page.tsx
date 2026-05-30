@@ -32,8 +32,8 @@ export default function HomePage() {
 
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-32">
             {/* Avatar */}
-            <div className="mx-auto mb-8 w-28 h-28 rounded-full bg-gradient-to-br from-[var(--celeste)] to-[var(--navy-dark)] flex items-center justify-center ring-4 ring-white/20">
-              <span className="text-3xl font-black text-white/90 select-none">RD</span>
+            <div className="mx-auto mb-8 w-28 h-28 rounded-full ring-4 ring-white/20 overflow-hidden">
+              <img src="/images/renato-decker.jpeg" alt="Renato Decker" className="w-full h-full object-cover object-top" />
             </div>
 
             <span className="inline-block text-xs font-bold uppercase tracking-[0.2em] text-[var(--celeste-light)] mb-4 px-4 py-1.5 rounded-full border border-[var(--celeste)]/30 bg-[var(--celeste)]/10">

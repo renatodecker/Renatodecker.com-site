@@ -191,8 +191,8 @@ export default function RenatoPmoPage() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div className="relative">
-                <div className="aspect-square max-w-sm mx-auto rounded-2xl bg-gradient-to-br from-[var(--navy)] to-[var(--celeste)] flex items-center justify-center">
-                  <span className="text-8xl font-black text-white/20 select-none">RD</span>
+                <div className="aspect-square max-w-sm mx-auto rounded-2xl overflow-hidden">
+                  <img src="/images/renato-decker.jpeg" alt="Renato Decker" className="w-full h-full object-cover object-top" />
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-2xl bg-[var(--celeste-pale)] -z-10" />
                 <div className="absolute -top-4 -left-4 w-24 h-24 rounded-full bg-[var(--navy)]/5 -z-10" />
