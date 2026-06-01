@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -12,15 +15,21 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Missing fields" }, { status: 400 });
   }
 
-  // TODO: wire up an email provider here (e.g. Resend, SendGrid, nodemailer)
-  // Example with Resend:
-  //   const resend = new Resend(process.env.RESEND_API_KEY);
-  //   await resend.emails.send({
-  //     from: "site@renatodecker.com",
-  //     to: "renatodecker@yahoo.com.br",
-  //     subject: `Contact from ${name}`,
-  //     text: `From: ${name} <${email}>\n\n${message}`,
-  //   });
+  if (!process.env.RESEND_API_KEY) {
+    return NextResponse.json({ ok: true });
+  }
+
+  const { error } = await resend.emails.send({
+    from: "contato@renatodecker.com",
+    to: "renatodecker@yahoo.com.br",
+    replyTo: email,
+    subject: `Contato via site — ${name}`,
+    text: `Nome: ${name}\nEmail: ${email}\n\n${message}`,
+  });
+
+  if (error) {
+    return NextResponse.json({ error: "Failed to send" }, { status: 500 });
+  }
 
   return NextResponse.json({ ok: true });
 }
