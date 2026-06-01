@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -13,23 +13,27 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Missing fields" }, { status: 400 });
   }
 
-  if (!process.env.RESEND_API_KEY) {
+  if (!process.env.YAHOO_USER || !process.env.YAHOO_APP_PASSWORD) {
     return NextResponse.json({ ok: true });
   }
 
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  const transporter = nodemailer.createTransport({
+    host: "smtp.mail.yahoo.com",
+    port: 465,
+    secure: true,
+    auth: {
+      user: process.env.YAHOO_USER,
+      pass: process.env.YAHOO_APP_PASSWORD,
+    },
+  });
 
-  const { error } = await resend.emails.send({
-    from: "contato@renatodecker.com",
+  await transporter.sendMail({
+    from: process.env.YAHOO_USER,
     to: "contato@renatodecker.com",
     replyTo: email,
     subject: `Contato via site — ${name}`,
     text: `Nome: ${name}\nEmail: ${email}\n\n${message}`,
   });
-
-  if (error) {
-    return NextResponse.json({ error: "Failed to send" }, { status: 500 });
-  }
 
   return NextResponse.json({ ok: true });
 }
