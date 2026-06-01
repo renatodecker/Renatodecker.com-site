@@ -72,7 +72,7 @@ export default function HomePage() {
                 {/* CTAs */}
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="mailto:renatodecker@yahoo.com.br"
+                    href="mailto:contato@renatodecker.com"
                     data-track="hero-cta-contact"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--celeste)] text-white text-sm font-semibold rounded-lg hover:bg-[var(--celeste-light)] transition-colors shadow-md"
                   >
@@ -287,11 +287,11 @@ export default function HomePage() {
             <span className="font-bold text-white text-lg tracking-tight">Renato Decker</span>
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-white/40">
               <a
-                href="mailto:renatodecker@yahoo.com.br"
+                href="mailto:contato@renatodecker.com"
                 data-track="footer-email"
                 className="hover:text-white transition-colors"
               >
-                renatodecker@yahoo.com.br
+                contato@renatodecker.com
               </a>
               <a
                 href="https://www.linkedin.com/in/renatodecker/"
