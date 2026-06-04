@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Navbar from "@/components/Navbar";
 import ContactForm from "@/components/ContactForm";
 
@@ -50,6 +50,7 @@ function ServiceCard({
 
 export default function RenatoPmoPage() {
   const t = useTranslations();
+  const locale = useLocale();
 
   const services = [
     {
@@ -209,6 +210,15 @@ export default function RenatoPmoPage() {
                     <span key={badge} className="text-xs font-semibold px-4 py-2 rounded-full bg-[var(--celeste-pale)] text-[var(--navy)]">{badge}</span>
                   ))}
                 </div>
+                <a
+                  href={`/${locale}`}
+                  className="inline-flex items-center gap-2 mt-6 text-sm font-semibold text-[var(--celeste)] hover:text-[var(--navy)] transition-colors"
+                >
+                  {t("about.profileLink")}
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
